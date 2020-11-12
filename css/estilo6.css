@@ -1,0 +1,25 @@
+#Layer3 {
+	position:absolute;
+	left:301px;
+	top:142px;
+	width:66px;
+	height:70px;
+	z-index:1;
+}
+.textonormaazul {
+    color: #000033;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+}
+.Cabecera_titulo1 {	
+    font-size: 16px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+}
+.Estilo54 {
+    font-size: 14px
+}

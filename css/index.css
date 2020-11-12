@@ -1,0 +1,16 @@
+#Layer3 {
+	position:absolute;
+	left:301px;
+	top:142px;
+	width:66px;
+	height:70px;
+	z-index:1;
+}
+@import url("/index.css");
+body {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-image: url(img/index_r1_c1.jpg);
+	background-repeat: repeat-x;
+}

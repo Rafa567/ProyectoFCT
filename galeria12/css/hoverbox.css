@@ -1,0 +1,73 @@
+*,body{
+	margin:0;
+	padding:0;
+}
+a{text-decoration:none;outline:none;}
+a:link,a:visited{color:#FFFFFF}
+a:hover{color:#FFFFFF}
+.clear{clear:both}
+.center{text-align:center}
+body{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+#infoContainer{left:0;position:absolute;top:0;width:100%;z-index:1}
+#info{
+	color:#FFF;
+	padding:0px 0px 15px 0px;
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+#info p{margin:10px auto;width:680px; font-size:10px;}
+#info img{float:right}
+#info a{font-weight:700;text-decoration:underline; font-size:11px;}
+#info a:link,#info a:visited{color:#FFFDD1}
+#info a:hover{color:#000}
+#ticker{font-weight:700;margin:0;text-align:center}
+#ticker a{display:block;padding:3px 0;text-decoration:none;width:100%;font-size:9px;}
+#ticker a:link,#ticker a:visited{background-color:#68AF33;color:#FFFDD1}
+#ticker a:hover{background-color:#000;color:#FFF}
+#down{float:right; margin:40px 40px 0px 0px;text-indent:-900em}
+#down a{background-image:url(../../galerias3/img/downBtnbig.jpg);background-repeat:no-repeat;display:block;height:128px;width:128px}
+#showme{background-image:url(../../galerias3/img/infodownBg.gif);background-position:top;background-repeat:repeat-x}
+#showme a{background-image:url(../../galerias3/img/infodown.gif);background-repeat:no-repeat;display:block;height:28px;text-indent:-900em;width:143px}
+#showme a:link,#showme a:hover{background-position:top right}
+#showme a:hover{background-position:bottom right}
+#wrapper{
+	margin:0 auto;
+	padding:35px 20px 0 50px;
+	width:690px;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#wrapper h1 a{background-image:url(../../galerias3/img/hoverbox.gif);background-repeat:no-repeat;display:block;height:40px;text-indent:-900em;width:271px}
+#content{background:none;margin:40px 20px 30px 25px;position:relative;width:635px}
+#footer{background:#F5F5F5 url(../../galerias3/img/footBg.gif) bottom no-repeat;height:120px;margin:0 auto;text-align:center}
+#footer a{font-weight:700}
+#footer a:link,#footer a:visited{color:#036}
+#footer a:hover{color:#A3BB50}
+#down a:link,#down a:visited,#wrapper h1 a:link,#wrapper h1 a:visited{background-position:top left}
+#down a:hover,#wrapper h1 a:hover{background-position:bottom left}
+
+/* Hoverbox Code */
+
+.hoverbox{cursor:default;list-style:none}
+.hoverbox a .preview{display:none}
+.hoverbox a:hover .preview{display:block;left:-45px;position:absolute;top:-33px;z-index:1}
+.hoverbox img{
+	background:#fff;
+	color:inherit;
+	height:127px;
+	opacity:.5;
+	padding:2px;
+	vertical-align:top;
+	width:100px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.hoverbox li{color:inherit;display:inline;float:left;margin:3px;padding:5px;position:relative}
+.hoverbox .preview{height:190px;opacity:1;width:150px}

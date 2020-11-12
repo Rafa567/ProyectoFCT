@@ -1,0 +1,71 @@
+	@import url("./index.css");
+body {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+a:hover {
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: underline;
+}
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.Estilo2 {
+	color: #0099FF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+a:link {
+	color: #0099FF;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+a:visited {
+	text-decoration: underline;
+	color: #0099FF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+a:active {
+	text-decoration: none;
+	color: #0099EE;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+#Layer1 {
+	position:absolute;
+	left:1344px;
+	top:60px;
+	width:42px;
+	height:46px;
+	z-index:1;
+}
+#Layer2 {
+	position:absolute;
+	left:1343px;
+	top:62px;
+	width:35px;
+	height:26px;
+	z-index:1;
+}
+.Cabecera_titulo {
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+}
+.Estilo50 {
+	font-size: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	color: #000066;
+}

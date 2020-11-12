@@ -1,0 +1,34 @@
+Index.html
+EL CLUB 
+bienvenida.html
+historia.html
+junta_directiva.html
+estatutos.html
+normas_club.html
+INSTALACIONES
+AREA SOCIAL
+	sala_infantil_juvenil.html
+	bar_restaurante.html
+	biblioteca.html
+	sala_tv_lectura.html
+AREA DEPORTIVA
+	piscina.html
+GIMNACIO
+	pista_squarh.html 
+	sauna.html
+	fitness.html
+	mantenimiento.html
+
+RESERVAS
+reserva_socios.html
+reserva_no_socios.html
+SOLICITUD
+ingreso.htnl
+baja.html
+
+tour virtual/index.html 
+galeria/galeria.html 
+contacto.html 
+aviso_legal.html
+noticias.html
+

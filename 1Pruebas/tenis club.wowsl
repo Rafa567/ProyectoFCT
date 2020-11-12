@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>6.1</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>move</CaptionsEffect>
+            <Controls>true</Controls>
+            <GalleryName>tenis club</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>stack</ImageEffect>
+            <ImageFillColor>#0000ff</ImageFillColor>
+            <ImageHeight>450</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/transparent/</ImageTemplate>
+            <ImageTemplateName>Transparent</ImageTemplateName>
+            <ImageWidth>900</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Users/Alejandro/Documents/WOW Slider/index/index.html</PublishFileName>
+            <PublishIndex>index.html</PublishIndex>
+            <PublishPath>C:/Users/Alejandro/Documents/WOW Slider/index</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>true</ShowBullets>
+            <ShowTooltips>true</ShowTooltips>
+            <SlideshowDelay>30</SlideshowDelay>
+            <SlideshowDuration>22</SlideshowDuration>
+            <SoundEnable>1</SoundEnable>
+            <SoundFileName>C:/Users/Alejandro/Documents/Trabajo/Web/Web_teniclub/Pruebas/musica.mp3</SoundFileName>
+            <StopOnHover>true</StopOnHover>
+            <TemplateName>transparent</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>false</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/Alejandro/Documents/Trabajo/Web/Web_teniclub/Pruebas/portada.jpg</url>
+                <title>portada</title>
+                <filesize>294970</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Alejandro/Documents/Trabajo/Web/Web_teniclub/Pruebas/entrada.jpg</url>
+                <title>entrada</title>
+                <filesize>446420</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Alejandro/Documents/Trabajo/Web/Web_teniclub/Pruebas/gimnasio.jpg</url>
+                <title>gimnasio</title>
+                <filesize>846918</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Alejandro/Documents/Trabajo/Web/Web_teniclub/Pruebas/fitness.jpg</url>
+                <title>fitness</title>
+                <filesize>501975</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Alejandro/Documents/Trabajo/Web/Web_teniclub/Pruebas/bar.jpg</url>
+                <title>bar</title>
+                <filesize>321720</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Alejandro/Documents/Trabajo/Web/Web_teniclub/Pruebas/restaurante.jpg</url>
+                <title>restaurante</title>
+                <filesize>186419</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Alejandro/Documents/Trabajo/Web/Web_teniclub/Pruebas/piscina.jpg</url>
+                <title>piscina</title>
+                <filesize>194541</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Alejandro/Documents/Trabajo/Web/Web_teniclub/Pruebas/biblioteca.jpg</url>
+                <title>biblioteca</title>
+                <filesize>509712</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Alejandro/Documents/Trabajo/Web/Web_teniclub/Pruebas/salatv.jpg</url>
+                <title>salatv</title>
+                <filesize>300009</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

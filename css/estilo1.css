@@ -1,0 +1,38 @@
+#Layer3 {
+	position:absolute;
+	left:301px;
+	top:142px;
+	width:66px;
+	height:70px;
+	z-index:1;
+}
+.Estilo17 {
+	background-position: left top; 
+	background-repeat: no-repeat; 
+	color: #000000; 
+}
+.textonormaazul {
+	color: #000033;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+}
+.Estilo22 {
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color: #D9F9F8;
+}
+.Estilo4 {
+	color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.Estilo52 {
+	color: #000098;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+}
