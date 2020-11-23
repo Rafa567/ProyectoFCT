@@ -80,7 +80,7 @@
                 </tr>
                 <tr>
                   <td colspan="2" background="img/index_r2_c3.jpg">&nbsp;</td>
-                  <td><a href="index.html" target="_top"
+                  <td><a href="index.php" target="_top"
                       onclick="MM_nbGroup('down','navbar1','index_r2_c5','img/index_r2_c5_f3.jpg',1);"
                       onmouseover="MM_nbGroup('over','index_r2_c5','img/index_r2_c5_f2.jpg','img/index_r2_c5_f4.jpg',1);"
                       onmouseout="MM_nbGroup('out');"><img name="index_r2_c5" src="img/index_r2_c5.jpg" width="100"
@@ -272,41 +272,42 @@
                                             </td>
                                             <td class="Estilo47">&nbsp;</td>
                                           </tr>
+
                                           <tr>
                                             <th height="30" colspan="2" valign="middle" class="Estilo47" scope="row">
                                               <div align="center">D.
-                                                <input name="nombre" type="text" id="nombre" size="60" />
+                                                <input name="nombre" type="text" id="nombre" size="60" required />
                                                 con DNI n&ordm;
-                                                <input name="dni" type="text" id="dni" size="8" />
+                                                <input name="dni" type="text" id="dni" size="8" required />
                                               </div>
                                             </th>
                                           </tr>
                                           <tr>
                                             <th height="30" colspan="2" valign="middle" class="Estilo47" scope="row">
                                               <div align="center"> calle
-                                                <input name="calle" type="text" id="calle" size="68" />
+                                                <input name="calle" type="text" id="calle" size="68" required/>
                                                 n&ordm;
-                                                <input name="numero" type="text" id="numero" size="6" />
+                                                <input name="numero" type="text" id="numero" size="6" required />
                                               </div>
                                             </th>
                                           </tr>
                                           <tr>
                                             <th height="30" colspan="2" valign="middle" class="Estilo47" scope="row">
                                               <div align="center"> de
-                                                <input name="ciudad" type="text" id="ciudad" size="15" />
+                                                <input name="ciudad" type="text" id="ciudad" size="15" required/>
                                                 provincia de
-                                                <input name="provincia" type="text" id="provincia" size="16" />
+                                                <input name="provincia" type="text" id="provincia" size="16" required/>
                                                 y n&ordm; telefono
-                                                <input name="telefono" type="text" id="telefono" size="17" />
+                                                <input name="telefono" type="text" id="telefono" size="17" required/>
                                               </div>
                                             </th>
                                           </tr>
                                           <tr>
                                             <th height="30" colspan="2" valign="middle" class="Estilo47" scope="row">e
                                               mail
-                                              <input name="Email" type="text" id="Email" size="40" />
+                                              <input name="email" type="text" id="email" size="40" required/>
                                               siendo socio n&ordm;
-                                              <input name="nsocio" type="text" id="nsocio" size="20" /> </th>
+                                              <input name="nsocio" type="text" id="nsocio" size="20" required/> </th>
                                           </tr>
                                           <tr>
                                             <th height="30" colspan="2" valign="middle" class="Estilo47" scope="row">
@@ -331,7 +332,7 @@
                                                     <th width="5%">
                                                       <div align="left">
                                                         <input type="checkbox" name="primerplan" value="OK"
-                                                          id="primerplan" />
+                                                          id="primerplan"  />
                                                         <label for="checkbox"></label>
                                                       </div>
                                                     </th>
@@ -390,7 +391,7 @@
                                                     <th width="5%">
                                                       <div align="left">
                                                         <input type="checkbox" name="sjuventud" value="OK"
-                                                          id="sjuventud" />
+                                                          id="sjuventud"  />
                                                       </div>
                                                     </th>
                                                   </tr>
@@ -437,10 +438,10 @@
                                           <tr>
                                             <th height="72" colspan="2" valign="bottom" class="Estilo47" scope="row">
                                               <div align="center">Para celebrar en ella
-                                                <input name="celebrar" type="text" id="celebrar" size="40" />
+                                                <input name="celebrar" type="text" id="celebrar" size="40" required/>
                                                 el proximo d&iacute;a
                                                 <input name="diacelebrar" type="text" id="diacelebrar"
-                                                  value="01/01/2000" size="12" />
+                                                  value="01/01/2000" size="12" required/>
                                               </div>
                                             </th>
                                           </tr>
@@ -448,10 +449,10 @@
                                             <th height="30" colspan="2" valign="middle" class="Estilo47" scope="row">
                                               <div align="center">a las
                                                 <input name="horaempie" type="text" id="horaempie" value="00:00"
-                                                  size="12" />
+                                                  size="12" required/>
                                                 horas, con una duraci&oacute;n total aproximada de
                                                 <input name="duraccion" type="text" id="duraccion" value="00:00"
-                                                  size="12" />
+                                                  size="12" required/>
                                                 horas. Dicha</div>
                                             </th>
                                           </tr>
@@ -476,18 +477,18 @@
                                           <tr>
                                             <th height="30" colspan="2" valign="middle" class="Estilo47" scope="row">
                                               <div align="center">En &Eacute;cija,a
-                                                <input name="dia22" type="text" id="dia22" size="4" />
+                                                <input name="dia22" type="text" id="dia22" size="4" required/>
                                                 de
-                                                <input name="mes22" type="text" id="mes22" size="12" />
+                                                <input name="mes22" type="text" id="mes22" size="12" required/>
                                                 del
-                                                <input name="ano2" type="text" id="ano2" size="4" />
+                                                <input name="ano2" type="text" id="ano2" size="4" required />
                                               </div>
                                             </th>
                                           </tr>
                                           <tr>
                                             <th height="30" colspan="2" valign="middle" class="Estilo47" scope="row">
                                               <div align="center">Firmado indique su nombre:
-                                                <input name="firma" type="text" id="firma" size="60" />
+                                                <input name="firma" type="text" id="firma" size="60" required/>
                                               </div>
                                             </th>
                                           </tr>
@@ -541,7 +542,7 @@
                                       </div>
                                       <p class="Estilo47">
                                         <label for="radiobutton">
-                                          <input name="aviso_legal" type="checkbox" id="aviso_legal" value="OK" />
+                                          <input name="aviso_legal" type="checkbox" id="aviso_legal" value="OK" required />
                                           He leido el aviso legal<br />
                                           <br />
                                         </label>
@@ -562,6 +563,7 @@
                               <table width="95%" border="1">
                                 <tr>
                                   <th scope="row">
+                                    <!--
                                     <form action="gracias5.php" method="post"
                                       name="SOLICITUD CELEBRACI&Oacute;N DE SOCIO"
                                       id="SOLICITUD CELEBRACI&Oacute;N DE SOCIO">
@@ -591,25 +593,25 @@
                                           <tr>
                                             <th height="30" colspan="2" valign="middle" class="Estilo47" scope="row">
                                               <div align="center">D.
-                                                <input name="nombre2" type="text" id="nombre2" size="60" />
+                                                <input name="nombre2" type="text" id="nombre2" size="60" required/>
                                                 con DNI n&ordm;
-                                                <input name="nodni" type="text" id="nodni" size="8" />
+                                                <input name="nodni" type="text" id="nodni" size="8" required/>
                                               </div>
                                             </th>
                                           </tr>
                                           <tr>
                                             <th height="30" colspan="2" valign="middle" class="Estilo47" scope="row">y
                                               n&ordm; telefono
-                                              <input name="telefono2" type="text" id="telefono2" size="17" />
+                                              <input name="telefono2" type="text" id="telefono2" size="17" required/>
                                               siendo socio n&ordm;
-                                              <input name="nsocio3" type="text" id="nsocio3" size="20" />
+                                              <input name="nsocio3" type="text" id="nsocio3" size="20" required/>
                                               en activo, de esta socidad y actuando en </th>
                                           </tr>
                                           <tr>
                                             <th height="30" colspan="2" valign="middle" class="Estilo47" scope="row">
-                                              <input type="checkbox" name="particular" value="ok" id="particular" />
+                                              <input type="checkbox" name="particular" value="ok" id="particular"  required/>
                                               <label for="checkbox">Representacion el particular D/D&ordm;.:
-                                                <input name="particularnom" type="text" id="particularnom" size="62" />
+                                                <input name="particularnom" type="text" id="particularnom" size="62" required/>
                                               </label></th>
                                           </tr>
                                           <tr>
@@ -618,11 +620,11 @@
                                           </tr>
                                           <tr>
                                             <th height="30" colspan="2" valign="middle" class="Estilo47" scope="row">
-                                              <input type="checkbox" name="empresa" value="ok" id="empresa" />
+                                              <input type="checkbox" name="empresa" value="ok" id="empresa" required/>
                                               <label for="checkbox">Representaci&oacute;n de la Asociaci&oacute;n/
                                                 Instituci&oacute;n/ Sociedad:
                                                 <input name="particularnom2" type="text" id="particularnom2"
-                                                  size="40" />
+                                                  size="40" required/>
                                               </label></th>
                                           </tr>
                                           <tr>
@@ -634,31 +636,31 @@
                                                       <tr>
                                                         <th scope="row">
                                                           <div align="center"> Con domicilio social en calle
-                                                            <input name="calle3" type="text" id="calle3" size="35" />
+                                                            <input name="calle3" type="text" id="calle3" size="35" required/>
                                                             n&ordm;
-                                                            <input name="numero3" type="text" id="numero3" size="6" />
+                                                            <input name="numero3" type="text" id="numero3" size="6"  required/>
                                                           </div>
                                                         </th>
                                                       </tr>
                                                       <tr>
                                                         <th scope="row">
                                                           <div align="center"> de
-                                                            <input name="ciudad3" type="text" id="ciudad3" size="15" />
+                                                            <input name="ciudad3" type="text" id="ciudad3" size="15" required/>
                                                             provincia de
                                                             <input name="provincia3" type="text" id="provincia3"
-                                                              size="16" />
+                                                              size="16" required/>
                                                             con DNI / CIF n&ordm;
-                                                            <input name="cif" type="text" id="cif" size="8" />
+                                                            <input name="cif" type="text" id="cif" size="8" required/>
                                                           </div>
                                                         </th>
                                                       </tr>
                                                       <tr>
                                                         <th scope="row">
                                                           <div align="center">y n&ordm; telefono
-                                                            <input name="telefono3" type="text" id="telefono3"
+                                                            <input name="telefono3" type="text" id="telefono3" required
                                                               size="12" />
                                                             e mail
-                                                            <input name="Email3" type="text" id="Email3" size="40" />
+                                                            <input name="Email3" type="text" id="Email3" size="40" required/>
                                                           </div>
                                                         </th>
                                                       </tr>
@@ -798,10 +800,10 @@
                                           <tr>
                                             <th height="72" colspan="2" valign="bottom" class="Estilo47" scope="row">
                                               <div align="center">Para celebrar en ella
-                                                <input name="celebrar3" type="text" id="celebrar3" size="40" />
+                                                <input name="celebrar3" type="text" id="celebrar3" size="40" required/>
                                                 el proximo d&iacute;a
                                                 <input name="diacelebrar2" type="text" id="diacelebrar2"
-                                                  value="01/01/2000" size="12" />
+                                                  value="01/01/2000" size="12" required/>
                                               </div>
                                             </th>
                                           </tr>
@@ -910,6 +912,7 @@
                                         <input name="reset2222" type="reset" id="reset222" value="Borrar todo" />
                                       </p>
                                     </form>
+                                    -->
                                   </th>
                                 </tr>
                               </table>
@@ -937,7 +940,7 @@
               </table>
               <div id="MMMenuContainer0312205212_0">
                 <div id="MMMenu0312205212_0" onmouseout="MM_menuStartTimeout(1000);"
-                  onmouseover="MM_menuResetTimeout();">
+                  onmouseover="MM_menuResetTimeout();" style="height: auto;">
                   <a href="Bienvenida.html" target="_blank" id="MMMenu0312205212_0_Item_0"
                     class="MMMIFVStyleMMMenu0312205212_0" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_0');">
                     Bienvenida
@@ -945,18 +948,6 @@
                   <a href="Historia.html" target="_blank" id="MMMenu0312205212_0_Item_1"
                     class="MMMIVStyleMMMenu0312205212_0" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_0');">
                     Historia
-                  </a>
-                  <a href="Junta_directiva.html" target="_blank" id="MMMenu0312205212_0_Item_2"
-                    class="MMMIVStyleMMMenu0312205212_0" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_0');">
-                    Junta&nbsp;Directiva
-                  </a>
-                  <a href="Estatutos.html" target="_blank" id="MMMenu0312205212_0_Item_3"
-                    class="MMMIVStyleMMMenu0312205212_0" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_0');">
-                    Estatutos
-                  </a>
-                  <a href="Normas_club" target="_blank" id="MMMenu0312205212_0_Item_4"
-                    class="MMMIVStyleMMMenu0312205212_0" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_0');">
-                    Normas&nbsp;del&nbsp;Club
                   </a>
                 </div>
               </div>
@@ -1094,19 +1085,19 @@
                         <tr>
                           <th width="14" class="Estilo2" scope="col">&nbsp;</th>
                           <th width="41" height="10" class="Estilo2" scope="col">
-                            <div align="left"><a href="index.html" target="_top">INICIO</a></div>
+                            <div align="left"><a href="index.php" target="_top">INICIO</a></div>
                           </th>
                           <th width="73" height="10" class="Estilo2" scope="col">
-                            <div align="left"><a href="index.html" target="_top">EL CLUB</a></div>
+                            <div align="left"><a href="index.php" target="_top">EL CLUB</a></div>
                           </th>
                           <th height="10" colspan="3" class="Estilo2" scope="col">
-                            <div align="center"><a href="index.html" target="_top">INSTALACIONES</a></div>
+                            <div align="center"><a href="index.php" target="_top">INSTALACIONES</a></div>
                           </th>
                           <th width="64" height="10" class="Estilo2" scope="col">
-                            <div align="left"><a href="index.html" target="_top">RESERVAS</a></div>
+                            <div align="left"><a href="index.php" target="_top">RESERVAS</a></div>
                           </th>
                           <th width="61" height="10" class="Estilo2" scope="col">
-                            <div align="left"><a href="index.html" target="_top">SOLICITUD</a></div>
+                            <div align="left"><a href="index.php" target="_top">SOLICITUD</a></div>
                           </th>
                           
                           <th width="65" height="10" class="Estilo2" scope="col">
@@ -1126,10 +1117,10 @@
                             <div align="left"><a href="bienvenida.html" target="_top">Bienvenida</a> </div>
                           </th>
                           <th width="82" height="10" class="Estilo2">
-                            <div align="left"><a href="index.html" target="_top">Area social </a></div>
+                            <div align="left"><a href="index.php" target="_top">Area social </a></div>
                           </th>
                           <th height="10" colspan="2" class="Estilo2">
-                            <div align="left"><a href="index.html" target="_top">Area deportiva </a></div>
+                            <div align="left"><a href="index.php" target="_top">Area deportiva </a></div>
                           </th>
                           <th width="64" height="10" class="Estilo2">
                             <div align="left">
@@ -1166,7 +1157,7 @@
                             <div align="left"><a href="piscina.html" target="_top">Piscina</a></div>
                           </th>
                           <th width="89" height="10" class="Estilo2">
-                            <div align="left"><a href="index.html" target="_top">Gimnasio</a></div>
+                            <div align="left"><a href="index.php" target="_top">Gimnasio</a></div>
                           </th>
                           <th width="64" height="10" class="Estilo2">
                             <div align="left">
@@ -1182,9 +1173,7 @@
                           <th width="41" height="10" class="Estilo2">
                             <div align="left"></div>
                           </th>
-                          <th width="73" height="10" class="Estilo2">
-                            <div align="left"><a href="junta_directiva.htnl" target="_top">Junta directiva</a> </div>
-                          </th>
+                          
                           <th width="82" height="10" class="Estilo2">
                             <div align="left"><a href="bar_restaurante.html" target="_top">Bar restaurante</a></div>
                           </th>
@@ -1201,9 +1190,6 @@
                           <th width="73" height="10" class="Estilo2">
                             <div align="left"><a href="estatuto.html" target="_top">Estatutos</a></div>
                           </th>
-                          <th width="82" height="10" class="Estilo2">
-                            <div align="left"><a href="biblioteca.html" target="_top">Biblioteca</a></div>
-                          </th>
                           <th width="42" height="10" class="Estilo2">&nbsp;</th>
                           <th width="89" height="10" class="Estilo2">
                             <div align="left"><a href="sauna.html" target="_top">Sauna</a></div>
@@ -1213,9 +1199,6 @@
                           <th width="14" class="Estilo2">&nbsp;</th>
                           <th width="41" height="10" class="Estilo2">
                             <div align="left"></div>
-                          </th>
-                          <th width="73" height="10" class="Estilo2">
-                            <div align="left"><a href="normas_club.html" target="_top">Normas del club</a> </div>
                           </th>
                           <th width="82" height="10" class="Estilo2">
                             <div align="left"><a href="sala_tv_lectura.html" target="_top" class="Estilo2">Sala tv
