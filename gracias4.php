@@ -216,6 +216,7 @@ EOT;
                       $soc = $_POST['nsocio'];
                       $obser = $_POST['otrasobser'];
                       $cele = $_POST['celebrar'];
+
                       $diac = $_POST['diacelebrar'];
                       $horae = $_POST['horaempie'];
                       $dura = $_POST['duraccion'];
@@ -247,44 +248,7 @@ EOT;
                       $aviso = $_POST['aviso_legal'];
 
 
-                      $mailFormat = 0;
-                      $mailBody = <<<EOT
-<div style="width:380px; border:1px #999 solid; font-family:verdana; font-size:12px; color:#333; padding:10px;">
-<h1 style="font-size:14px; font-family:comic sans;">SOLICITUD DE CELEBRACIÓN DE SOCIO.</h1>
-
-
-<strong>Nombre:</strong> $nom\r\n <br />
-<strong>dni nº:</strong> $dni\r\n <br />
-<strong>Calle:</strong> $cal\r\n <br />
-<strong>numero:</strong> $num\r\n <br />
-<strong>Ciudad:</strong> $ciu\r\n <br />
-<strong>Provincia:</strong> $pro\r\n <br />
-<strong>Telefono:</strong> $tel1\r\n <br />
-<strong>E mail:</strong> $email\r\n <br />
-<strong>Socio:</strong> $soc\r\n <br />
-<strong>Primera Planta:</strong> $che\r\n <br />
-<strong>Bodeguita:</strong> $che1\r\n <br />
-<strong>Corredor:</strong> $che2\r\n <br />
-<strong>Jardines:</strong> $che3\r\n <br />
-<strong>Salon TV:</strong> $che4\r\n <br />
-<strong>Salon Juventud:</strong> $che5\r\n <br />
-<strong>Salon de Acto:</strong> $che6\r\n <br />
-<strong>Otras:</strong> $che7\r\n <br />
-<strong>Otras Observaciones:</strong> $obser\r\n <br />
-<strong>Celebracion:</strong> $cele\r\n <br />
-<strong>Dia de celebracion:</strong> $diac\r\n <br />
-<strong>Hora celebracion:</strong> $horae\r\n <br />
-<strong>Duracion:</strong> $dura\r\n <br />
-
-<strong>Firmado:</strong> $fir\r\n <br />
-<strong>Observaciones:</strong> $obse\r\n <br />
-<strong>recibir informacion:</strong> $recinf\r\n <br />
-<strong>Recibir información:</strong> $rec\r\n <br />
-<strong>Email:</strong> $mailFrom\r\n <br />
-
-</div>
-EOT;
-MandaEmail($mailTo, $mailFrom, $mailSubject, $mailBody, $mailFormat);
+                     
 ?>
                     </p>
                     <p>&nbsp;</p>

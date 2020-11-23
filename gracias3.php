@@ -85,6 +85,7 @@ function MM_nbGroup(event, grpName) { //v6.0
                   <td><img src="img/spacer.gif" width="22" height="1" border="0" alt="spacer" /></td>
                   <td><img src="img/spacer.gif" width="36" height="1" border="0" alt="spacer" /></td>
                   <td><img src="img/spacer.gif" width="1" height="1" border="0" alt="spacer" /></td>
+
                 </tr>
                 <tr>
                   <td colspan="11" background="img/index_r1_c10.jpg"><a name="SUBIR" id="SUBIR"></a><img name="index_r1_c3" src="img/index_r1_c3.jpg" width="510" height="88" border="0" id="index_r1_c3" alt="1" /></td>
@@ -180,18 +181,10 @@ EOT;
                       $dni5 = $_POST['dni12'];
                       $nac5 = $_POST['fnaci12'];
                       $mail5 = $_POST['email12'];
-                      $hij6 = $_POST['hijo2'];
+                      $hij6 = $_POST['hijo22'];
                       $dni6 = $_POST['dni22'];
                       $nac6 = $_POST['fnaci22'];
                       $mail6 = $_POST['email22'];
-                      $hij7 = $_POST['hijo32'];
-                      $dni7 = $_POST['dni32'];
-                      $nac7 = $_POST['fnaci32'];
-                      $mail7 = $_POST['email32'];
-                      $hij8 = $_POST['hijo42'];
-                      $dni8 = $_POST['dni42'];
-                      $nac8 = $_POST['fnaci4'];
-                      $mail8 = $_POST['email42'];
                       $diaban = $_POST['diaban2'];
                       $mesban = $_POST['mesban2'];
                       $anoban = $_POST['anoban2'];
@@ -210,84 +203,7 @@ EOT;
                       $men = $_POST['textarea2'];
                       $rec = $_POST['aviso_legal42'];
                       $recinf = $_POST['recibirinf2'];
-                      $tel = $_POST['Tel&eacute;fono'];
-                      $mail = $_POST['From Email'];
-                      $inf = $_POST['radiobutton'];
-                      $mailFrom = $_POST['Email'];
-                      $mailSubject = "Contacto desde Web";
-
-                      $mailFormat = 0;
-                      $mailBody = <<<EOT
-<div style="width:380px; border:1px #999 solid; font-family:verdana; font-size:12px; color:#333; padding:10px;">
-<h1 style="font-size:14px; font-family:comic sans;">SOLICITUD DE RE-INGRESO SOCIO</h1>
-
-
-<strong>Nombre:</strong> $nom\r\n <br />
-<strong>dni nº:</strong> $dni\r\n <br />
-<strong>nacido:</strong> $nac\r\n <br />
-<strong>Ciudad:</strong> $ciu\r\n <br />
-<strong>Calle:</strong> $cal\r\n <br />
-<strong>numero:</strong> $num\r\n <br />
-<strong>Telefono:</strong> $tel1\r\n <br />
-<strong>Estado:</strong> $est\r\n <br />
-<strong>Profesion:</strong> $pro\r\n <br />
-<strong>Fecha Baja:</strong> $fbaja\r\n <br />
-<strong>Numero Socio:</strong> $nsocio\r\n <br />
-<strong>Firma:</strong> $firma2\r\n <br />
-<strong>Ciudad:</strong> $ciu1\r\n <br />
-<strong>Dia:</strong> $dia\r\n <br />
-<strong>Mes:</strong> $mes\r\n <br />
-<strong>Año:</strong> $ano\r\n <br />
-<strong>Conyuge:</strong> $cony3\r\n <br />
-<strong>Dni:</strong> $dni3\r\n <br />
-<strong>Fecha Nacimiento:</strong> $nac3\r\n <br />
-<strong>Email:</strong> $emailcony\r\n <br />
-<strong>hIJO 1:</strong> $hij5\r\n <br />
-<strong>Dni:</strong> $dni5\r\n <br />
-<strong>Fecha Nacimiento:</strong> $nac5\r\n <br />
-<strong>Dni:</strong> $dni5\r\n <br />
-<strong>Email:</strong> $mail5\r\n <br />
-<strong>hIJO 2:</strong> $hij6\r\n <br />
-<strong>Dni:</strong> $dni6\r\n <br />
-<strong>Fecha Nacimiento:</strong> $nac6\r\n <br />
-<strong>Dni:</strong> $dni6\r\n <br />
-<strong>Email:</strong> $mail6\r\n <br />
-<strong>hIJO 3:</strong> $hij7\r\n <br />
-<strong>Dni:</strong> $dni7\r\n <br />
-<strong>Fecha Nacimiento:</strong> $nac7\r\n <br />
-<strong>Dni:</strong> $dni7\r\n <br />
-<strong>Email:</strong> $mail7\r\n <br />
-<strong>hIJO 4:</strong> $hij8\r\n <br />
-<strong>Dni:</strong> $dni8\r\n <br />
-<strong>Fecha Nacimiento:</strong> $nac8\r\n <br />
-<strong>Dni:</strong> $dni8\r\n <br />
-<strong>Email:</strong> $mail8\r\n <br />
-<strong>Dia recibo banco:</strong> $diaban\r\n <br />
-<strong>mes banco:</strong> $mesban\r\n <br />
-<strong>año banco:</strong> $anoban\r\n <br />
-<strong>Banco:</strong> $banc\r\n <br />
-<strong>Domicilio banco:</strong> $domb\r\n <br />
-<strong>Iban:</strong> $iban\r\n <br />
-<strong>Banco:</strong> $iban1\r\n <br />
-<strong>Sucursal:</strong> $iban2\r\n <br />
-<strong>D.C.:</strong> $iban3\r\n <br />
-<strong>C.C.C:</strong> $iban4\r\n <br />
-<strong>Nombre Domiciacion:</strong> $nom5\r\n <br />
-<strong>Nombre Domiciacion:</strong> $nom6\r\n <br />
-<strong>Nombre Domiciacion:</strong> $nom7\r\n <br />
-<strong>Nombre Domiciacion:</strong> $nom8\r\n <br />
-<strong>Firmado:</strong> $fir\r\n <br />
-<strong>Mensaje:</strong> $men\r\n <br />
-<strong>Motivos:</strong> $mot\r\n <br />
-<strong>Recibir información:</strong> $rec\r\n <br />
-<strong>recibir informacion:</strong> $recinf\r\n <br />
-<strong>Tel&eacute;fono:</strong> $tel\r\n <br />
-<strong>Email:</strong> $mailFrom\r\n <br />
-<strong>radiobutton:</strong> $inf\r\n <br />
-
-</div>
-EOT;
-                      MandaEmail($mailTo, $mailFrom, $mailSubject, $mailBody, $mailFormat);
+                    
                       ?>
                     </p>
                     <p>&nbsp;</p>

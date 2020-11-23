@@ -153,6 +153,59 @@ EOT;
                         mail($mailTo, $mailSubject, $mailBody, $headers);
                       };
                       $mailTo = "rafaproyecto123@gmail.com"; // Direcci&#65533;n de Email a donde se enviara el correo
+
+
+                      $che = false;
+                      $che1 = false;
+                      $che2 = false;
+                      $che3 = false;
+                      $che4 = false;
+                      $che5 = false;
+                      $che6 = false;
+                      $che7 = false;          
+
+                      if (isset($_POST['primerplan'])){
+                        $che = true;
+                      }
+                      if (isset($_POST['bodeguita'])){
+                        $che1 = true;
+                      }
+                      if (isset($_POST['corredor'])){
+                        $che2 = true;
+                      }
+                      if (isset($_POST['jardines3'])){
+                        $che3 = true;
+                      }
+                      if (isset($_POST['salontv'])){
+                        $che4 = true;
+                      }                     
+                      if (isset($_POST['sjuventud'])){
+                        $che5 = true;
+                      }
+                      if (isset($_POST['salonacto'])){
+                        $che6 = true;
+                      }
+                      if (isset($_POST['otras'])){
+                        $che7 = true;
+                      }
+
+
+                      if (isset($_POST['particular'])){
+                        $valor = 'particular';
+                      }elseif (isset($_POST['empresa'])){
+                        $valor = 'asociación';
+                      }else{
+                        $valor = 'No marcado';
+                      }
+
+                      
+
+                      if (isset($_POST['SI2'])){
+                        $valor2 = 'si';
+                      }elseif (isset($_POST['NO2'])){
+                        $valor2 = 'no';
+                      }
+
                       $nom = $_POST['nombre'];
                       $dni = $_POST['nodni'];
                       $cal = $_POST['calle3'];
@@ -160,8 +213,8 @@ EOT;
                       $ciu = $_POST['ciudad3'];
                       $pro = $_POST['provincia3'];
                       $tel2 = $_POST['telefono3'];
-                      $kao = $_POST['particular'];
-                      $kao2 = $_POST['empresa'];
+
+                     
                       $kao1 = $_POST['particularnom2'];
                       $cal1 = $_POST['calle32'];
                       $num1 = $_POST['numero32'];
@@ -170,21 +223,11 @@ EOT;
                       $cif2 = $_POST['cif2'];
                       $tel3 = $_POST['telefono32'];
                       $email = $_POST['Email32'];
-                      $che = $_POST['primerplan2'];
-                      $che1 = $_POST['bodeguita2'];
-                      $che2 = $_POST['corredor2'];
-                      $che3 = $_POST['jardines32'];
-                      $che4 = $_POST['salontv2'];
-                      $che5 = $_POST['sjuventud2'];
-                      $che6 = $_POST['salonacto2'];
-                      $che7 = $_POST['otras2'];
                       $obser = $_POST['otrasobser2'];
                       $cele = $_POST['celebrar3'];
                       $diac = $_POST['diacelebrar2'];
                       $horae = $_POST['horaempie2'];
                       $dura = $_POST['duraccion2'];
-                      $si = $_POST['SI2'];
-                      $no = $_POST['NO2'];
                       $dia = $_POST['dia222'];
                       $mes = $_POST['mes222'];
                       $ano = $_POST['ano22'];
@@ -192,74 +235,6 @@ EOT;
                       $obse = $_POST['obser2'];
                       $recinf = $_POST['recibirinf2'];
                       $rec = $_POST['aviso_legal2'];
-                      $tel = $_POST['Tel&eacute;fono'];
-                      $mail = $_POST['From Email'];
-                      $inf = $_POST['radiobutton'];
-                      $mailFrom = $_POST['Email'];
-                      $mailSubject = "Contacto desde Web";
-
-                      $mailFormat = 0;
-                      $mailBody = <<<EOT
-<div style="width:380px; border:1px #999 solid; font-family:verdana; font-size:12px; color:#333; padding:10px;">
-<h1 style="font-size:14px; font-family:comic sans;">SOLICITUD DE CELEBRACIÓN PARA NO SOCIO.</h1>
-
-
-<strong>Nombre:</strong> $nom\r\n <br />
-<strong>dni nº:</strong> $dni\r\n <br />
-<strong>Calle:</strong> $cal\r\n <br />
-<strong>numero:</strong> $num\r\n <br />
-<strong>Ciudad:</strong> $ciu\r\n <br />
-<strong>Provincia:</strong> $pro\r\n <br />
-<strong>Telefono:</strong> $tel2\r\n <br />
-
-
-
-
-
-
-<strong>Particular:</strong> $kao\r\n <br />
-<strong>Empresa:</strong> $kao2\r\n <br />
-<strong>Nombre Empresa:</strong> $kao1\r\n <br />
-<strong>Calle:</strong> $cal1\r\n <br />
-<strong>numero:</strong> $num1\r\n <br />
-<strong>Ciudad:</strong> $ciu1\r\n <br />
-<strong>Provincia:</strong> $pro1\r\n <br />
-<strong>CIF:</strong> $cif2\r\n <br />
-
-<strong>Telefono:</strong> $tel3\r\n <br />
-<strong>Email:</strong> $email\r\n <br />
-
-
-
-<strong>Primera Planta:</strong> $che\r\n <br />
-<strong>Bodeguita:</strong> $che1\r\n <br />
-<strong>Corredor:</strong> $che2\r\n <br />
-<strong>Jardines:</strong> $che3\r\n <br />
-<strong>Salon TV:</strong> $che4\r\n <br />
-<strong>Salon Juventud:</strong> $che5\r\n <br />
-<strong>Salon de Acto:</strong> $che6\r\n <br />
-<strong>Otras:</strong> $che7\r\n <br />
-<strong>Otras Observaciones:</strong> $obser\r\n <br />
-<strong>Celebracion:</strong> $cele\r\n <br />
-<strong>Dia de celebracion:</strong> $diac\r\n <br />
-<strong>Hora celebracion:</strong> $horae\r\n <br />
-<strong>Duracion:</strong> $dura\r\n <br />
-<strong>Musica SI:</strong> $si\r\n <br />
-<strong>Musica NO:</strong> $no\r\n <br />
-<strong>Dia:</strong> $dia\r\n <br />
-<strong>Mes:</strong> $mes\r\n <br />
-<strong>Año:</strong> $ano\r\n <br />
-<strong>Firmado:</strong> $fir\r\n <br />
-<strong>Observaciones:</strong> $obse\r\n <br />
-<strong>Recibir informacion:</strong> $recinf\r\n <br />
-<strong>Aviso Legal:</strong> $rec\r\n <br />
-<strong>Tel&eacute;fono:</strong> $tel\r\n <br />
-<strong>Email:</strong> $mail\r\n <br />
-<strong>radiobutton:</strong> $inf\r\n <br />
-
-</div>
-EOT;
-                      MandaEmail($mailTo, $mailFrom, $mailSubject, $mailBody, $mailFormat);
                       ?>
                     </p>
                     <p>&nbsp;</p>

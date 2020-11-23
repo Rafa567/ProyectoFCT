@@ -158,6 +158,19 @@ EOT;
                         mail($mailTo, $mailSubject, $mailBody, $headers);
                       };
                       $mailTo = "rafaproyecto123@gmail.com"; // Direcci&#65533;n de Email a donde se enviara el correo
+
+                      if (isset($_POST['definitiva'])){
+                        $valor2 = 'definitiva';
+                      }elseif (isset($_POST['temporal'])){
+                        $valor2 = 'temporal';
+                      }  
+                      if (isset($_POST['propia'])){
+                        $valor2 = 'propia';
+                      }elseif (isset($_POST['misfamilia'])){
+                        $valor2 = 'definitva';
+                      }                     
+                   
+
                       $ciu = $_POST['ciudad'];
                       $dia = $_POST['dia'];
                       $mes = $_POST['mes'];
@@ -169,11 +182,7 @@ EOT;
                       $cal = $_POST['calle'];
                       $num = $_POST['numero'];
                       $tel = $_POST['telefono'];
-                      $def = $_POST['definitiva'];
-                      $tem = $_POST['temporal'];
                       $fect = $_POST['fechatemporal'];
-                      $pro = $_POST['propia'];
-                      $misf = $_POST['misfamilia'];
                       $nom1 = $_POST['Nombrefam1'];
                       $dni1 = $_POST['dnifam1'];
                       $non2 = $_POST['Nombrefam2'];
@@ -188,50 +197,10 @@ EOT;
                       $mot = $_POST['motivos'];
                       $rec = $_POST['recibirinf'];
                       $fir = $_POST['firma'];
-                      $mailFrom = $_POST['Email'];
                       $mailSubject = "contacto desde Web";
 
-                      $mailFormat = 0;
-                      $mailBody = <<<EOT
-<div style="width:380px; border:1px #999 solid; font-family:verdana; font-size:12px; color:#333; padding:10px;">
-<h1 style="font-size:14px; font-family:comic sans;">Baja de Socio</h1>
-<strong>Ciudad:</strong> $ciu\r\n <br />
-<strong>Dia:</strong> $dia\r\n <br />
-<strong>Mes:</strong> $mes\r\n <br />
-<strong>Año:</strong> $ano\r\n <br />
-<strong>Yo:</strong> $nom\r\n <br />
-<strong>dni nº:</strong> $dni\r\n <br />
-<strong>nacido:</strong> $nac\r\n <br />
-<strong>Ciudad:</strong> $ciu2\r\n <br />
-<strong>Calle:</strong> $cal\r\n <br />
-<strong>numero:</strong> $num\r\n <br />
-<strong>Telefono:</strong> $tel\r\n <br />
-<strong>Baja definitiva</strong> $def\r\n <br />
-<strong>Baja Temporal:</strong> $tem\r\n <br />
-<strong>Fecha baja temporal:</strong> $fect\r\n <br />
-<strong>Baja Propia:</strong> $pro\r\n <br />
-<strong>Mis Familiares:</strong> $misf\r\n <br />
-<strong>Nombre un Familiar:</strong> $nom1\r\n <br />
-<strong>dni:</strong> $dni1\r\n <br />
-<strong>Nombre un Familiar:</strong> $nom2\r\n <br />
-<strong>dni:</strong> $dni2\r\n <br />
-<strong>Nombre un Familiar:</strong> $nom3\r\n <br />
-<strong>dni:</strong> $dni3\r\n <br />
-<strong>Nombre un Familiar:</strong> $nom4\r\n <br />
-<strong>dni:</strong> $dni4\r\n <br />
-<strong>baja dia efectivo:</strong> $diae\r\n <br />
-<strong>mes efectivo:</strong> $mese\r\n <br />
-<strong>año efectivo:</strong> $anoe\r\n <br />
-<strong>Motivos:</strong> $mot\r\n <br />
-<strong>Recibir información:</strong> $rec\r\n <br />
-<strong>Firmado:</strong> $fir\r\n <br />
-<strong>Tel&eacute;fono:</strong> $tel\r\n <br />
-<strong>Email:</strong> $mailFrom\r\n <br />
-<strong>Mensaje:</strong> $men\r\n <br />
-<strong>radiobutton:</strong> $inf\r\n <br />
-</div>
-EOT;
-                      MandaEmail($mailTo, $mailFrom, $mailSubject, $mailBody, $mailFormat);
+
+                      
                       ?>
                     </p>
                     <p>&nbsp;</p>

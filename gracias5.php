@@ -1,6 +1,6 @@
 <script type="text/JavaScript">
- 
-function MM_preloadImages() { //v3.0
+
+  function MM_preloadImages() { //v3.0
   var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
     var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
     if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
@@ -49,7 +49,6 @@ function MM_nbGroup(event, grpName) { //v6.0
 }
 </script>
 <style type="text/css">
-  
   body {
     margin-left: 0px;
     margin-top: 0px;
@@ -57,7 +56,6 @@ function MM_nbGroup(event, grpName) { //v6.0
     background-image: url(img/index_r1_c1.jpg);
     background-repeat: repeat-x;
   }
-  
 </style>
 
 <body onLoad="MM_preloadImages('img/index_r2_c5_f3.jpg','img/index_r2_c5_f2.jpg','img/index_r2_c5_f4.jpg','img/index_r2_c6_f3.jpg','img/index_r2_c6_f2.jpg','img/index_r2_c6_f4.jpg','img/index_r2_c7_f3.jpg','img/index_r2_c7_f2.jpg','img/index_r2_c7_f4.jpg','img/index_r2_c8_f3.jpg','img/index_r2_c8_f2.jpg','img/index_r2_c8_f4.jpg','img/index_r2_c9_f3.jpg','img/index_r2_c9_f2.jpg','img/index_r2_c9_f4.jpg','img/index_r2_c11_f3.jpg','img/index_r2_c11_f2.jpg','img/index_r2_c11_f4.jpg','img/index_r2_c12_f3.jpg','img/index_r2_c12_f2.jpg','img/index_r2_c12_f4.jpg','img/index_r2_c13_f3.jpg','img/index_r2_c13_f2.jpg','img/index_r2_c13_f4.jpg','img/index_r2_c15_f3.jpg','img/index_r2_c15_f2.jpg','img/index_r2_c15_f4.jpg')">
@@ -102,7 +100,7 @@ function MM_nbGroup(event, grpName) { //v6.0
                   <td><a href="sala_infantil_juvenil.html" target="_top" onClick="MM_nbGroup('down','navbar1','index_r2_c7','img/index_r2_c7_f3.jpg',1);" onMouseOver="MM_menuShowMenu('MMMenuContainer0312205212_1', 'MMMenu0312205212_1',0,50,'index_r2_c7');MM_nbGroup('over','index_r2_c7','img/index_r2_c7_f2.jpg','img/index_r2_c7_f4.jpg',1);" onMouseOut="MM_nbGroup('out');MM_menuStartTimeout(1000);"><img name="index_r2_c7" src="img/index_r2_c7.jpg" width="100" height="51" border="0" id="index_r2_c7" alt="Instalaciones" /></a></td>
                   <td><a href="reserva_socios.html" target="_top" onClick="MM_nbGroup('down','navbar1','index_r2_c8','img/index_r2_c8_f3.jpg',1);" onMouseOver="MM_menuShowMenu('MMMenuContainer0312205212_2', 'MMMenu0312205212_2',0,50,'index_r2_c8');MM_nbGroup('over','index_r2_c8','img/index_r2_c8_f2.jpg','img/index_r2_c8_f4.jpg',1);" onMouseOut="MM_nbGroup('out');MM_menuStartTimeout(1000);"><img name="index_r2_c8" src="img/index_r2_c8.jpg" width="100" height="51" border="0" id="index_r2_c8" alt="Reservas" /></a></td>
                   <td colspan="2"><a href="ingreso.html" target="_top" onClick="MM_nbGroup('down','navbar1','index_r2_c9','img/index_r2_c9_f3.jpg',1);" onMouseOver="MM_menuShowMenu('MMMenuContainer0312205212_3', 'MMMenu0312205212_3',0,50,'index_r2_c9');MM_nbGroup('over','index_r2_c9','img/index_r2_c9_f2.jpg','img/index_r2_c9_f4.jpg',1);" onMouseOut="MM_nbGroup('out');MM_menuStartTimeout(1000);"><img name="index_r2_c9" src="img/index_r2_c9.jpg" width="100" height="51" border="0" id="index_r2_c9" alt="Solicitudes" /></a></td>
-                 
+
                   <td><a href="galeria/galeria.html" target="_top" onMouseOut="MM_nbGroup('out');" onMouseOver="MM_nbGroup('over','index_r2_c12','img/index_r2_c12_f2.jpg','img/index_r2_c12_f4.jpg',1);" onClick="MM_nbGroup('down','navbar1','index_r2_c12','img/index_r2_c12_f3.jpg',1);"><img name="index_r2_c12" src="img/index_r2_c12.jpg" width="100" height="51" border="0" id="index_r2_c12" alt="Galeria" /></a></td>
                   <td colspan="2"><a href="contacto.html" target="_top" onMouseOut="MM_nbGroup('out');" onMouseOver="MM_nbGroup('over','index_r2_c13','img/index_r2_c13_f2.jpg','img/index_r2_c13_f4.jpg',1);" onClick="MM_nbGroup('down','navbar1','index_r2_c13','img/index_r2_c13_f3.jpg',1);"><img name="index_r2_c13" src="img/index_r2_c13_f3.jpg" width="100" height="51" border="0" id="index_r2_c13" alt="Contactos" /></a></td>
                   <td><a href="noticias.html" target="_top" onMouseOut="MM_nbGroup('out');" onMouseOver="MM_nbGroup('over','index_r2_c15','img/index_r2_c15_f2.jpg','img/index_r2_c15_f4.jpg',1);" onClick="MM_nbGroup('down','navbar1','index_r2_c15','img/index_r2_c15_f3.jpg',1);"><img name="index_r2_c15" src="img/index_r2_c15.jpg" width="100" height="51" border="0" id="index_r2_c15" alt="Actualidad" /></a></td>
@@ -157,7 +155,8 @@ EOT;
                       };
                       $mailTo = "rafaproyecto123@gmail.com"; // Direcci&#65533;n de Email a donde se enviara el correo
 
-                      
+
+                      $che7 = false;
                       $che8 = false;
                       $che9 = false;
                       $che10 = false;
@@ -165,74 +164,57 @@ EOT;
                       $che12 = false;
                       $che13 = false;
                       $che14 = false;
-                      $che15 = false;        
 
-                      if (isset($_POST['primerplan2'])){
+                      if (isset($_POST['primerplan2'])) {
+                        $che7 = true;
+                      }
+                      if (isset($_POST['bodeguita2'])) {
                         $che8 = true;
                       }
-                      if (isset($_POST['bodeguita2'])){
+                      if (isset($_POST['corredor2'])) {
                         $che9 = true;
                       }
-                      if (isset($_POST['corredor2'])){
+                      if (isset($_POST['jardines32'])) {
                         $che10 = true;
                       }
-                      if (isset($_POST['jardines32'])){
+                      if (isset($_POST['salontv2'])) {
                         $che11 = true;
                       }
-                      if (isset($_POST['salontv2'])){
+                      if (isset($_POST['sjuventud2'])) {
                         $che12 = true;
-                      }                     
-                      if (isset($_POST['sjuventud2'])){
+                      }
+                      if (isset($_POST['salonacto2'])) {
                         $che13 = true;
                       }
-                      if (isset($_POST['salonacto2'])){
+                      if (isset($_POST['otras2'])) {
                         $che14 = true;
                       }
-                      if (isset($_POST['otras2'])){
-                        $che15 = true;
-                      }
 
-                      $che7 = $_POST['primerplan2'];
-                      $che8 = $_POST['bodeguita2'];
-                      $che9 = $_POST['corredor2'];
-                      $che10 = $_POST['jardines32'];
-                      $che11 = $_POST['salontv2'];
-                      $che12 = $_POST['sjuventud2'];
-                      $che13 = $_POST['salonacto2'];
-                      $che14 = $_POST['otras2'];
 
-                      
-                      $empresa = $_POST['empresa'];
                       $particular = $_POST['particular'];
                       $particularnom2 = $_POST['particularnom2'];
 
-                      if (isset($_POST['particular'])){
+                      if (isset($_POST['particular'])) {
                         $valor = 'particular';
-                      }elseif (isset($_POST['particularnom2'])){
+                      } elseif (isset($_POST['particularnom2'])) {
                         $valor = 'asociación';
-                      }else{
+                      } else {
                         $valor = 'No marcado';
                       }
 
-                      $si = $_POST['SI2'];
-                      $no = $_POST['NO2'];
-                      
-                      if (isset($_POST['SI2'])){
+
+                      if (isset($_POST['SI2'])) {
                         $valor2 = 'si';
-                      }elseif (isset($_POST['NO2'])){
+                      } elseif (isset($_POST['NO2'])) {
                         $valor2 = 'no';
                       }
-                     
+
 
 
                       $nom1 = $_POST['nombre2'];
                       $dni = $_POST['nodni'];
                       $tel1 = $_POST['telefono2'];
                       $soc = $_POST['nsocio3'];
-                      $kao = $_POST['particular'];
-                      $kao1 = $_POST['particularnom'];
-                      $kao2 = $_POST['empresa'];
-                      $kao3 = $_POST['particularnom2'];
                       $cal = $_POST['calle3'];
                       $num = $_POST['numero3'];
                       $ciu = $_POST['ciudad3'];
@@ -245,7 +227,7 @@ EOT;
                       $diac = $_POST['diacelebrar2'];
                       $horae = $_POST['horaempie2'];
                       $dura = $_POST['duraccion2'];
-                     
+
                       $dia = $_POST['dia222'];
                       $mes = $_POST['mes222'];
                       $ano = $_POST['ano22'];
@@ -253,62 +235,7 @@ EOT;
                       $obse = $_POST['obser2'];
                       $recinf = $_POST['recibirinf2'];
                       $rec = $_POST['aviso_legal2'];
-                      $tel = $_POST['Tel&eacute;fono'];
-                      $mail = $_POST['From Email'];
-                      $inf = $_POST['radiobutton'];
-                      $mailFrom = $_POST['Email'];
                       $mailSubject = "Contacto desde Web";
-
-                      $mailFormat = 0;
-                      $mailBody = <<<EOT
-<div style="width:380px; border:1px #999 solid; font-family:verdana; font-size:12px; color:#333; padding:10px;">
-<h1 style="font-size:14px; font-family:comic sans;">SOLICITUD DE CELEBRACIÓN DE SOCIO PARA NO SOCIO.</h1>
-
-
-<strong>Nombre:</strong> $nom1\r\n <br />
-<strong>dni nº:</strong> $dni\r\n <br />
-<strong>Telefono:</strong> $tel1\r\n <br />
-<strong>Socio:</strong> $soc\r\n <br />
-<strong>Particular:</strong> $kao\r\n <br />
-<strong>Nombre Particular:</strong> $kao1\r\n <br />
-<strong>Empresa:</strong> $kao2\r\n <br />
-<strong>Nombre Empresa:</strong> $kao3\r\n <br />
-<strong>Calle:</strong> $cal\r\n <br />
-<strong>numero:</strong> $num\r\n <br />
-<strong>Ciudad:</strong> $ciu\r\n <br />
-<strong>Provincia:</strong> $pro\r\n <br />
-<strong>CIF:</strong> $cif\r\n <br />
-<strong>Telefono:</strong> $tel2\r\n <br />
-<strong>E mail:</strong> $email\r\n <br />
-<strong>Primera Planta:</strong> $che\r\n <br />
-<strong>Bodeguita:</strong> $che1\r\n <br />
-<strong>Corredor:</strong> $che2\r\n <br />
-<strong>Jardines:</strong> $che3\r\n <br />
-<strong>Salon TV:</strong> $che4\r\n <br />
-<strong>Salon Juventud:</strong> $che5\r\n <br />
-<strong>Salon de Acto:</strong> $che6\r\n <br />
-<strong>Otras:</strong> $che7\r\n <br />
-<strong>Otras Observaciones:</strong> $obser\r\n <br />
-<strong>Celebracion:</strong> $cele\r\n <br />
-<strong>Dia de celebracion:</strong> $diac\r\n <br />
-<strong>Hora celebracion:</strong> $horae\r\n <br />
-<strong>Duracion:</strong> $dura\r\n <br />
-<strong>Musica SI:</strong> $si\r\n <br />
-<strong>Musica NO:</strong> $no\r\n <br />
-<strong>Dia:</strong> $dia\r\n <br />
-<strong>Mes:</strong> $mes\r\n <br />
-<strong>Año:</strong> $ano\r\n <br />
-<strong>Firmado:</strong> $fir\r\n <br />
-<strong>Observaciones:</strong> $obse\r\n <br />
-<strong>Recibir informacion:</strong> $recinf\r\n <br />
-<strong>Aviso Legal:</strong> $rec\r\n <br />
-<strong>Tel&eacute;fono:</strong> $tel\r\n <br />
-<strong>Email:</strong> $mailFrom\r\n <br />
-<strong>radiobutton:</strong> $inf\r\n <br />
-
-</div>
-EOT;
-                      MandaEmail($mailTo, $mailFrom, $mailSubject, $mailBody, $mailFormat);
                       ?>
                     </p>
                     <p>&nbsp;</p>
