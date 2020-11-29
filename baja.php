@@ -93,7 +93,7 @@
 
 
                         <form action="gracias1.php" method="post" name="Contacto" id="Contacto">
-                          
+
                           <p class="Estilo47">&nbsp;</p>
                           <table width="90%">
                             <tr>
@@ -160,7 +160,7 @@
                             <tr>
                               <th height="30" colspan="2" valign="middle" class="Estilo47" scope="row">
                                 <div align="center">
-                                  <input type="radio" name="eleccion" value="OK" id="definitiva" required/>
+                                  <input type="radio" name="eleccion" value="OK" id="definitiva" required />
                                   Definitiva
                                   <input type="radio" name="eleccion" value="OK" id="temporal" />
                                   Temporal, durante un per&iacute;odo de
@@ -236,7 +236,7 @@
                               He leido el aviso legal<br />
                               <br />
                             </label>
-                            <input name="submit2" id="btnEnviar" type="submit" value="     Envielo     " / >
+                            <input name="submit2" id="btnEnviar" type="submit" value="     Envielo     " />
                             <input name="reset2" type="reset" id="reset" value="Borrar todo" />
                           </p>
                         </form>
@@ -275,6 +275,17 @@
 
                 </div>
               </div>
+              <div id="MMMenuContainer0312205212_0">
+                <div id="MMMenu0312205212_0" onmouseout="MM_menuStartTimeout(1000);" onmouseover="MM_menuResetTimeout();" style="height: auto;">
+                  <a href="bienvenida.php" target="_blank" id="MMMenu0312205212_0_Item_0" class="MMMIFVStyleMMMenu0312205212_0" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_0');">
+                    Bienvenida
+                  </a>
+                  <a href="historia.php" target="_blank" id="MMMenu0312205212_0_Item_1" class="MMMIVStyleMMMenu0312205212_0" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_0');">
+                    Historia
+                  </a>
+
+                </div>
+              </div>
               <div id="MMMenuContainer0312205212_1">
                 <div id="MMMenu0312205212_1" onmouseout="MM_menuStartTimeout(1000);" onmouseover="MM_menuResetTimeout();">
                   <a href="javascript:;" id="MMMenu0312205212_1_Item_0" class="MMMIFVStyleMMMenu0312205212_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1','1');">
@@ -287,77 +298,78 @@
                   </a>
                 </div>
                 <div id="MMMenu0312205212_1_1" onmouseout="MM_menuStartTimeout(1000);" onmouseover="MM_menuResetTimeout();">
-                  <a href="Sala_infantil_juvenil.php" target="_blank" id="MMMenu0312205212_1_1_Item_0" class="MMMIFVStyleMMMenu0312205212_1_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_1');">
+                  <a href="sala_infantil_juvenil.php" target="_blank" id="MMMenu0312205212_1_1_Item_0" class="MMMIFVStyleMMMenu0312205212_1_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_1');">
                     Sala&nbsp;Infantil&nbsp;Juvenil
                   </a>
-                  <a href="Bar_restaurante.php" target="_blank" id="MMMenu0312205212_1_1_Item_1" class="MMMIVStyleMMMenu0312205212_1_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_1');">
+                  <a href="bar_restaurante.php" target="_blank" id="MMMenu0312205212_1_1_Item_1" class="MMMIVStyleMMMenu0312205212_1_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_1');">
                     Bar&nbsp;Restaurante
                   </a>
-                  <a href="Biblioteca.php" target="_blank" id="MMMenu0312205212_1_1_Item_2" class="MMMIVStyleMMMenu0312205212_1_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_1');">
+                  <a href="biblioteca.php" target="_blank" id="MMMenu0312205212_1_1_Item_2" class="MMMIVStyleMMMenu0312205212_1_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_1');">
                     Biblioteca
                   </a>
-                  <a href="Sala_tv_lectura.php" target="_blank" id="MMMenu0312205212_1_1_Item_3" class="MMMIVStyleMMMenu0312205212_1_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_1');">
+                  <a href="sala_tv_lectura.php" target="_blank" id="MMMenu0312205212_1_1_Item_3" class="MMMIVStyleMMMenu0312205212_1_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_1');">
                     Sala&nbsp;TV&nbsp;Lectura
                   </a>
-                  <a href="Sala_taurina.php" target="_blank" id="MMMenu0312205212_1_1_Item_4" class="MMMIVStyleMMMenu0312205212_1_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_1');">
+                  <a href="sala_taurina.php" target="_blank" id="MMMenu0312205212_1_1_Item_4" class="MMMIVStyleMMMenu0312205212_1_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_1');">
                     Sala&nbsp;Taurina
                   </a>
-                  <a href="Salon_actos.php" target="_blank" id="MMMenu0312205212_1_1_Item_5" class="MMMIVStyleMMMenu0312205212_1_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_1');">
+                  <a href="salon_actos.php" target="_blank" id="MMMenu0312205212_1_1_Item_5" class="MMMIVStyleMMMenu0312205212_1_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_1');">
                     Salon&nbsp;de&nbsp;Actos
                   </a>
-                  <a href="Bodeguita.php" target="_blank" id="MMMenu0312205212_1_1_Item_6" class="MMMIVStyleMMMenu0312205212_1_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_1');">
+                  <a href="bodeguita.php" target="_blank" id="MMMenu0312205212_1_1_Item_6" class="MMMIVStyleMMMenu0312205212_1_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_1');">
                     Bodeg&uuml;ita-Musical
                   </a>
                 </div>
                 <div id="MMMenu0312205212_1_2" onmouseout="MM_menuStartTimeout(1000);" onmouseover="MM_menuResetTimeout();">
-                  <a href="Piscina.php" target="_blank" id="MMMenu0312205212_1_2_Item_0" class="MMMIFVStyleMMMenu0312205212_1_2" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_2');">
+                  <a href="piscina.php" target="_blank" id="MMMenu0312205212_1_2_Item_0" class="MMMIFVStyleMMMenu0312205212_1_2" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_2');">
                     Piscina
                   </a>
-                  <a href="Gimnasio.php" target="_blank" id="MMMenu0312205212_1_2_Item_1" class="MMMIVStyleMMMenu0312205212_1_2" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_2','1');">
+                  <a href="gimnasio.php" target="_blank" id="MMMenu0312205212_1_2_Item_1" class="MMMIVStyleMMMenu0312205212_1_2" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_2','1');">
                     <span class="MMMenuItemSpanMMMenu0312205212_1_2">Gimnasio</span>
                     <img src="img/arrows.gif" alt="" class="MMArrowStyleMMMenu0312205212_1_2" />
                   </a>
                 </div>
                 <div id="MMMenu0312205212_1_2_1" onmouseout="MM_menuStartTimeout(1000);" onmouseover="MM_menuResetTimeout();">
-                  <a href="Pista_squash.php" target="_blank" id="MMMenu0312205212_1_2_1_Item_0" class="MMMIFVStyleMMMenu0312205212_1_2_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_2_1');">
+                  <a href="pista_squash.php" target="_blank" id="MMMenu0312205212_1_2_1_Item_0" class="MMMIFVStyleMMMenu0312205212_1_2_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_2_1');">
                     Pista&nbsp;Squash
                   </a>
-                  <a href="Sauna.php" target="_blank" id="MMMenu0312205212_1_2_1_Item_1" class="MMMIVStyleMMMenu0312205212_1_2_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_2_1');">
+                  <a href="sauna.php" target="_blank" id="MMMenu0312205212_1_2_1_Item_1" class="MMMIVStyleMMMenu0312205212_1_2_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_2_1');">
                     Sauna
                   </a>
-                  <a href="Fitness.php" target="_blank" id="MMMenu0312205212_1_2_1_Item_2" class="MMMIVStyleMMMenu0312205212_1_2_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_2_1');">
+                  <a href="fitness.php" target="_blank" id="MMMenu0312205212_1_2_1_Item_2" class="MMMIVStyleMMMenu0312205212_1_2_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_2_1');">
                     Fitness
                   </a>
-                  <a href="Mantenimiento.php" target="_blank" id="MMMenu0312205212_1_2_1_Item_3" class="MMMIVStyleMMMenu0312205212_1_2_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_2_1');">
+                  <a href="mantenimiento.php" target="_blank" id="MMMenu0312205212_1_2_1_Item_3" class="MMMIVStyleMMMenu0312205212_1_2_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_2_1');">
                     Mantenimiento
                   </a>
                 </div>
               </div>
               <div id="MMMenuContainer0312205212_2">
                 <div id="MMMenu0312205212_2" onmouseout="MM_menuStartTimeout(1000);" onmouseover="MM_menuResetTimeout();">
-                  <a href="Reserva_socios.php" target="_blank" id="MMMenu0312205212_2_Item_0" class="MMMIFVStyleMMMenu0312205212_2" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_2');">
+                  <a href="reserva_socios.php" target="_blank" id="MMMenu0312205212_2_Item_0" class="MMMIFVStyleMMMenu0312205212_2" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_2');">
                     Reserva&nbsp;socios
                   </a>
-                  <a href="Reserva_NO_socios.php" target="_blank" id="MMMenu0312205212_2_Item_1" class="MMMIVStyleMMMenu0312205212_2" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_2');">
+                  <a href="reserva_NO_socios.php" target="_blank" id="MMMenu0312205212_2_Item_1" class="MMMIVStyleMMMenu0312205212_2" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_2');">
                     Reserva&nbsp;NO&nbsp;socios
                   </a>
                 </div>
               </div>
               <div id="MMMenuContainer0312205212_3">
                 <div id="MMMenu0312205212_3" onmouseout="MM_menuStartTimeout(1000);" onmouseover="MM_menuResetTimeout();">
-                  <a href="Ingreso.php" target="_blank" id="MMMenu0312205212_3_Item_0" class="MMMIFVStyleMMMenu0312205212_3" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_3');">
+                  <a href="ingreso.php" target="_blank" id="MMMenu0312205212_3_Item_0" class="MMMIFVStyleMMMenu0312205212_3" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_3');">
                     Ingreso
                   </a>
-                  <a href="Baja.php" target="_blank" id="MMMenu0312205212_3_Item_1" class="MMMIVStyleMMMenu0312205212_3" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_3');">
-                    Baja </a> </div>
+                  <a href="baja.php" target="_blank" id="MMMenu0312205212_3_Item_1" class="MMMIVStyleMMMenu0312205212_3" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_3');">
+                    Baja
+                  </a></div>
               </div>
             </div>
           </div>
         </td>
       </tr>
-          <?php
-          theFooter();
-          ?>
+      <?php
+      theFooter();
+      ?>
     </table>
   </div>
   <!--//BLOQUE COOKIES-->
