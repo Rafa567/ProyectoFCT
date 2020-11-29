@@ -95,14 +95,14 @@ function MM_nbGroup(event, grpName) { //v6.0
                 </tr>
                 <tr>
                   <td colspan="2" background="img/index_r2_c3.jpg">&nbsp;</td>
-                  <td><a href="index.html" target="_top" onClick="MM_nbGroup('down','navbar1','index_r2_c5','img/index_r2_c5_f3.jpg',1);" onMouseOver="MM_nbGroup('over','index_r2_c5','img/index_r2_c5_f2.jpg','img/index_r2_c5_f4.jpg',1);" onMouseOut="MM_nbGroup('out');"><img name="index_r2_c5" src="img/index_r2_c5.jpg" width="100" height="51" border="0" id="index_r2_c5" alt="inicio" /></a></td>
-                  <td><a href="bienvenida.html" target="_top" onClick="MM_nbGroup('down','navbar1','index_r2_c6','img/index_r2_c6_f3.jpg',1);" onMouseOver="MM_menuShowMenu('MMMenuContainer0312205212_0', 'MMMenu0312205212_0',0,50,'index_r2_c6');MM_nbGroup('over','index_r2_c6','img/index_r2_c6_f2.jpg','img/index_r2_c6_f4.jpg',1);" onMouseOut="MM_nbGroup('out');MM_menuStartTimeout(1000);"><img name="index_r2_c6" src="img/index_r2_c6.jpg" width="100" height="51" border="0" id="index_r2_c6" alt="El Club" /></a></td>
-                  <td><a href="sala_infantil_juvenil.html" target="_top" onClick="MM_nbGroup('down','navbar1','index_r2_c7','img/index_r2_c7_f3.jpg',1);" onMouseOver="MM_menuShowMenu('MMMenuContainer0312205212_1', 'MMMenu0312205212_1',0,50,'index_r2_c7');MM_nbGroup('over','index_r2_c7','img/index_r2_c7_f2.jpg','img/index_r2_c7_f4.jpg',1);" onMouseOut="MM_nbGroup('out');MM_menuStartTimeout(1000);"><img name="index_r2_c7" src="img/index_r2_c7.jpg" width="100" height="51" border="0" id="index_r2_c7" alt="Instalaciones" /></a></td>
-                  <td><a href="reserva_socios.html" target="_top" onClick="MM_nbGroup('down','navbar1','index_r2_c8','img/index_r2_c8_f3.jpg',1);" onMouseOver="MM_menuShowMenu('MMMenuContainer0312205212_2', 'MMMenu0312205212_2',0,50,'index_r2_c8');MM_nbGroup('over','index_r2_c8','img/index_r2_c8_f2.jpg','img/index_r2_c8_f4.jpg',1);" onMouseOut="MM_nbGroup('out');MM_menuStartTimeout(1000);"><img name="index_r2_c8" src="img/index_r2_c8.jpg" width="100" height="51" border="0" id="index_r2_c8" alt="Reservas" /></a></td>
-                  <td colspan="2"><a href="ingreso.html" target="_top" onClick="MM_nbGroup('down','navbar1','index_r2_c9','img/index_r2_c9_f3.jpg',1);" onMouseOver="MM_menuShowMenu('MMMenuContainer0312205212_3', 'MMMenu0312205212_3',0,50,'index_r2_c9');MM_nbGroup('over','index_r2_c9','img/index_r2_c9_f2.jpg','img/index_r2_c9_f4.jpg',1);" onMouseOut="MM_nbGroup('out');MM_menuStartTimeout(1000);"><img name="index_r2_c9" src="img/index_r2_c9.jpg" width="100" height="51" border="0" id="index_r2_c9" alt="Solicitudes" /></a></td>
-                  <td><a href="galeria/galeria.html" target="_top" onMouseOut="MM_nbGroup('out');" onMouseOver="MM_nbGroup('over','index_r2_c12','img/index_r2_c12_f2.jpg','img/index_r2_c12_f4.jpg',1);" onClick="MM_nbGroup('down','navbar1','index_r2_c12','img/index_r2_c12_f3.jpg',1);"><img name="index_r2_c12" src="img/index_r2_c12.jpg" width="100" height="51" border="0" id="index_r2_c12" alt="Galeria" /></a></td>
-                  <td colspan="2"><a href="contacto.html" target="_top" onMouseOut="MM_nbGroup('out');" onMouseOver="MM_nbGroup('over','index_r2_c13','img/index_r2_c13_f2.jpg','img/index_r2_c13_f4.jpg',1);" onClick="MM_nbGroup('down','navbar1','index_r2_c13','img/index_r2_c13_f3.jpg',1);"><img name="index_r2_c13" src="img/index_r2_c13_f3.jpg" width="100" height="51" border="0" id="index_r2_c13" alt="Contactos" /></a></td>
-                  <td><a href="noticias.html" target="_top" onMouseOut="MM_nbGroup('out');" onMouseOver="MM_nbGroup('over','index_r2_c15','img/index_r2_c15_f2.jpg','img/index_r2_c15_f4.jpg',1);" onClick="MM_nbGroup('down','navbar1','index_r2_c15','img/index_r2_c15_f3.jpg',1);"><img name="index_r2_c15" src="img/index_r2_c15.jpg" width="100" height="51" border="0" id="index_r2_c15" alt="Actualidad" /></a></td>
+                  <td><a href="index.php" target="_top" onClick="MM_nbGroup('down','navbar1','index_r2_c5','img/index_r2_c5_f3.jpg',1);" onMouseOver="MM_nbGroup('over','index_r2_c5','img/index_r2_c5_f2.jpg','img/index_r2_c5_f4.jpg',1);" onMouseOut="MM_nbGroup('out');"><img name="index_r2_c5" src="img/index_r2_c5.jpg" width="100" height="51" border="0" id="index_r2_c5" alt="inicio" /></a></td>
+                  <td><a href="bienvenida.php" target="_top" onClick="MM_nbGroup('down','navbar1','index_r2_c6','img/index_r2_c6_f3.jpg',1);" onMouseOver="MM_menuShowMenu('MMMenuContainer0312205212_0', 'MMMenu0312205212_0',0,50,'index_r2_c6');MM_nbGroup('over','index_r2_c6','img/index_r2_c6_f2.jpg','img/index_r2_c6_f4.jpg',1);" onMouseOut="MM_nbGroup('out');MM_menuStartTimeout(1000);"><img name="index_r2_c6" src="img/index_r2_c6.jpg" width="100" height="51" border="0" id="index_r2_c6" alt="El Club" /></a></td>
+                  <td><a href="sala_infantil_juvenil.php" target="_top" onClick="MM_nbGroup('down','navbar1','index_r2_c7','img/index_r2_c7_f3.jpg',1);" onMouseOver="MM_menuShowMenu('MMMenuContainer0312205212_1', 'MMMenu0312205212_1',0,50,'index_r2_c7');MM_nbGroup('over','index_r2_c7','img/index_r2_c7_f2.jpg','img/index_r2_c7_f4.jpg',1);" onMouseOut="MM_nbGroup('out');MM_menuStartTimeout(1000);"><img name="index_r2_c7" src="img/index_r2_c7.jpg" width="100" height="51" border="0" id="index_r2_c7" alt="Instalaciones" /></a></td>
+                  <td><a href="reserva_socios.php" target="_top" onClick="MM_nbGroup('down','navbar1','index_r2_c8','img/index_r2_c8_f3.jpg',1);" onMouseOver="MM_menuShowMenu('MMMenuContainer0312205212_2', 'MMMenu0312205212_2',0,50,'index_r2_c8');MM_nbGroup('over','index_r2_c8','img/index_r2_c8_f2.jpg','img/index_r2_c8_f4.jpg',1);" onMouseOut="MM_nbGroup('out');MM_menuStartTimeout(1000);"><img name="index_r2_c8" src="img/index_r2_c8.jpg" width="100" height="51" border="0" id="index_r2_c8" alt="Reservas" /></a></td>
+                  <td colspan="2"><a href="ingreso.php" target="_top" onClick="MM_nbGroup('down','navbar1','index_r2_c9','img/index_r2_c9_f3.jpg',1);" onMouseOver="MM_menuShowMenu('MMMenuContainer0312205212_3', 'MMMenu0312205212_3',0,50,'index_r2_c9');MM_nbGroup('over','index_r2_c9','img/index_r2_c9_f2.jpg','img/index_r2_c9_f4.jpg',1);" onMouseOut="MM_nbGroup('out');MM_menuStartTimeout(1000);"><img name="index_r2_c9" src="img/index_r2_c9.jpg" width="100" height="51" border="0" id="index_r2_c9" alt="Solicitudes" /></a></td>
+                  <td><a href="galeria/galeria.php" target="_top" onMouseOut="MM_nbGroup('out');" onMouseOver="MM_nbGroup('over','index_r2_c12','img/index_r2_c12_f2.jpg','img/index_r2_c12_f4.jpg',1);" onClick="MM_nbGroup('down','navbar1','index_r2_c12','img/index_r2_c12_f3.jpg',1);"><img name="index_r2_c12" src="img/index_r2_c12.jpg" width="100" height="51" border="0" id="index_r2_c12" alt="Galeria" /></a></td>
+                  <td colspan="2"><a href="contacto.php" target="_top" onMouseOut="MM_nbGroup('out');" onMouseOver="MM_nbGroup('over','index_r2_c13','img/index_r2_c13_f2.jpg','img/index_r2_c13_f4.jpg',1);" onClick="MM_nbGroup('down','navbar1','index_r2_c13','img/index_r2_c13_f3.jpg',1);"><img name="index_r2_c13" src="img/index_r2_c13_f3.jpg" width="100" height="51" border="0" id="index_r2_c13" alt="Contactos" /></a></td>
+                  <td><a href="noticias.php" target="_top" onMouseOut="MM_nbGroup('out');" onMouseOver="MM_nbGroup('over','index_r2_c15','img/index_r2_c15_f2.jpg','img/index_r2_c15_f4.jpg',1);" onClick="MM_nbGroup('down','navbar1','index_r2_c15','img/index_r2_c15_f3.jpg',1);"><img name="index_r2_c15" src="img/index_r2_c15.jpg" width="100" height="51" border="0" id="index_r2_c15" alt="Actualidad" /></a></td>
                   <td colspan="2"><img name="index_r2_c16" src="img/index_r2_c16.jpg" width="58" height="51" border="0" id="index_r2_c16" alt="1" /></td>
                   <td><img src="img/spacer.gif" width="1" height="51" border="0" alt="spacer" /></td>
                 </tr>
@@ -137,22 +137,36 @@ Atenderemos su petici&oacute;n lo antes posible. </p>
 EOT;
                       ?>
                       <?php
-                      function MandaEmail($mailTo, $mailFrom, $mailSubject, $mailBody, $mailFormat)
-                      {
-                        if ($mailFormat == 0) {
-                          $headers  = "MIME-Version: 1.0\r\n";
-                          $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
-                        } else {
-                          $headers = "";
-                        }
 
-                        $headers .= "From: " . $mailFrom . "\r\n";
-                        $headers .= "Reply-To: " . $mailFrom . "\r\n";
-                        $headers .= "X-Mailer: PHP/" . phpversion();
+                      require "Exception.php";
+                      require "PHPMailer.php";
+                      require "SMTP.php";
 
-                        mail($mailTo, $mailSubject, $mailBody, $headers);
-                      };
-                      $mailTo = "rafaproyecto123@gmail.com"; // Direcci&#65533;n de Email a donde se enviara el correo
+                      use PHPMailer\PHPMailer\PHPMailer;
+                      use PHPMailer\PHPMailer\SMTP;
+                      use PHPMailer\PHPMailer\Exception;
+
+
+                      $mail = new PHPMailer();
+                      $mail->CharSet = 'UTF-8';
+
+                      $body = 'Cuerpo del correo de prueba';
+
+                      $mail->IsSMTP();
+                      $mail->Host       = 'smtp.gmail.com';
+                      $mail->SMTPSecure = 'tls';
+                      $mail->Port       = 587;
+                      $mail->SMTPDebug  = 1;
+                      $mail->SMTPAuth   = true;
+                      $mail->Username   = 'rafaproyecto123@gmail.com';
+                      $mail->Password   = 'rafaramos23';
+                      $mail->SetFrom('rafaproyecto123@gmail.com', "rafaramos23");
+                      $mail->AddReplyTo('no-reply@mycomp.com', 'no-reply');
+                      $mail->Subject    = 'Correo de prueba PHPMailer';
+                      $mail->MsgHTML($body);
+
+                      $mail->send();
+
 
 
                       $che = false;
@@ -162,49 +176,38 @@ EOT;
                       $che4 = false;
                       $che5 = false;
                       $che6 = false;
-                      $che7 = false;          
+                      $che7 = false;
 
-                      if (isset($_POST['primerplan'])){
+                      if (isset($_POST['primerplan'])) {
                         $che = true;
                       }
-                      if (isset($_POST['bodeguita'])){
+                      if (isset($_POST['bodeguita'])) {
                         $che1 = true;
                       }
-                      if (isset($_POST['corredor'])){
+                      if (isset($_POST['corredor'])) {
                         $che2 = true;
                       }
-                      if (isset($_POST['jardines3'])){
+                      if (isset($_POST['jardines3'])) {
                         $che3 = true;
                       }
-                      if (isset($_POST['salontv'])){
+                      if (isset($_POST['salontv'])) {
                         $che4 = true;
-                      }                     
-                      if (isset($_POST['sjuventud'])){
+                      }
+                      if (isset($_POST['sjuventud'])) {
                         $che5 = true;
                       }
-                      if (isset($_POST['salonacto'])){
+                      if (isset($_POST['salonacto'])) {
                         $che6 = true;
                       }
-                      if (isset($_POST['otras'])){
+                      if (isset($_POST['otras'])) {
                         $che7 = true;
                       }
 
 
-                      if (isset($_POST['particular'])){
-                        $valor = 'particular';
-                      }elseif (isset($_POST['empresa'])){
-                        $valor = 'asociación';
-                      }else{
-                        $valor = 'No marcado';
-                      }
 
-                      
 
-                      if (isset($_POST['SI2'])){
-                        $valor2 = 'si';
-                      }elseif (isset($_POST['NO2'])){
-                        $valor2 = 'no';
-                      }
+
+
 
                       $nom = $_POST['nombre'];
                       $dni = $_POST['nodni'];
@@ -214,15 +217,8 @@ EOT;
                       $pro = $_POST['provincia3'];
                       $tel2 = $_POST['telefono3'];
 
-                     
-                      $kao1 = $_POST['particularnom2'];
-                      $cal1 = $_POST['calle32'];
-                      $num1 = $_POST['numero32'];
-                      $ciu1 = $_POST['ciudad32'];
-                      $pro1 = $_POST['provincia32'];
-                      $cif2 = $_POST['cif2'];
-                      $tel3 = $_POST['telefono32'];
-                      $email = $_POST['Email32'];
+
+                      
                       $obser = $_POST['otrasobser2'];
                       $cele = $_POST['celebrar3'];
                       $diac = $_POST['diacelebrar2'];
@@ -233,7 +229,6 @@ EOT;
                       $ano = $_POST['ano22'];
                       $fir = $_POST['firma2'];
                       $obse = $_POST['obser2'];
-                      $recinf = $_POST['recibirinf2'];
                       $rec = $_POST['aviso_legal2'];
                       ?>
                     </p>
