@@ -134,10 +134,10 @@
               </table>
               <div id="MMMenuContainer0312205212_0">
                 <div id="MMMenu0312205212_0" onmouseout="MM_menuStartTimeout(1000);" onmouseover="MM_menuResetTimeout();" style="height: auto;">
-                  <a href="Bienvenida.php" target="_blank" id="MMMenu0312205212_0_Item_0" class="MMMIFVStyleMMMenu0312205212_0" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_0');">
+                  <a href="bienvenida.php" target="_blank" id="MMMenu0312205212_0_Item_0" class="MMMIFVStyleMMMenu0312205212_0" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_0');">
                     Bienvenida
                   </a>
-                  <a href="Historia.php" target="_blank" id="MMMenu0312205212_0_Item_1" class="MMMIVStyleMMMenu0312205212_0" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_0');">
+                  <a href="historia.php" target="_blank" id="MMMenu0312205212_0_Item_1" class="MMMIVStyleMMMenu0312205212_0" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_0');">
                     Historia
                   </a>
 
@@ -217,7 +217,7 @@
                   <a href="reserva_socios.php" target="_blank" id="MMMenu0312205212_2_Item_0" class="MMMIFVStyleMMMenu0312205212_2" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_2');">
                     Reserva&nbsp;socios
                   </a>
-                  <a href="reserva_NO_socios.php" target="_blank" id="MMMenu0312205212_2_Item_1" class="MMMIVStyleMMMenu0312205212_2" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_2');">
+                  <a href="reserva_no_socios.php" target="_blank" id="MMMenu0312205212_2_Item_1" class="MMMIVStyleMMMenu0312205212_2" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_2');">
                     Reserva&nbsp;NO&nbsp;socios
                   </a>
                 </div>

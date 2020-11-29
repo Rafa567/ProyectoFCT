@@ -596,7 +596,7 @@
                   <a href="reserva_socios.php" target="_blank" id="MMMenu0312205212_2_Item_0" class="MMMIFVStyleMMMenu0312205212_2" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_2');">
                     Reserva&nbsp;socios
                   </a>
-                  <a href="reserva_NO_socios.php" target="_blank" id="MMMenu0312205212_2_Item_1" class="MMMIVStyleMMMenu0312205212_2" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_2');">
+                  <a href="reserva_no_socios.php" target="_blank" id="MMMenu0312205212_2_Item_1" class="MMMIVStyleMMMenu0312205212_2" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_2');">
                     Reserva&nbsp;NO&nbsp;socios
                   </a>
                 </div>
