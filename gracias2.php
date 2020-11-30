@@ -51,7 +51,6 @@ function MM_nbGroup(event, grpName) { //v6.0
 //-->
 </script>
 <style type="text/css">
-  
   body {
     margin-left: 0px;
     margin-top: 0px;
@@ -71,14 +70,14 @@ function MM_nbGroup(event, grpName) { //v6.0
               <table border="0" cellpadding="0" cellspacing="0" width="80%%">
                 <!-- fwtable fwsrc="index.png" fwbase="index.jpg" fwstyle="Dreamweaver" fwdocid = "1752007515" fwnested="0" -->
                 <tr>
-                  
+
                   <td><img src="img/spacer.gif" width="36" height="1" border="0" alt="spacer" /></td>
                   <td><img src="img/spacer.gif" width="20" height="1" border="0" alt="spacer" /></td>
                   <td><img src="img/spacer.gif" width="100" height="1" border="0" alt="spacer" /></td>
                   <td><img src="img/spacer.gif" width="100" height="1" border="0" alt="spacer" /></td>
                   <td><img src="img/spacer.gif" width="100" height="1" border="0" alt="spacer" /></td>
                   <td><img src="img/spacer.gif" width="100" height="1" border="0" alt="spacer" /></td>
-                  
+
                   <td><img src="img/spacer.gif" width="54" height="1" border="0" alt="spacer" /></td>
                   <td><img src="img/spacer.gif" width="46" height="1" border="0" alt="spacer" /></td>
                   <td><img src="img/spacer.gif" width="100" height="1" border="0" alt="spacer" /></td>
@@ -105,7 +104,7 @@ function MM_nbGroup(event, grpName) { //v6.0
                   <td><a href="sala_infantil_juvenil.php" target="_top" onClick="MM_nbGroup('down','navbar1','index_r2_c7','img/index_r2_c7_f3.jpg',1);" onMouseOver="MM_menuShowMenu('MMMenuContainer0312205212_1', 'MMMenu0312205212_1',0,50,'index_r2_c7');MM_nbGroup('over','index_r2_c7','img/index_r2_c7_f2.jpg','img/index_r2_c7_f4.jpg',1);" onMouseOut="MM_nbGroup('out');MM_menuStartTimeout(1000);"><img name="index_r2_c7" src="img/index_r2_c7.jpg" width="100" height="51" border="0" id="index_r2_c7" alt="Instalaciones" /></a></td>
                   <td><a href="reserva_socios.php" target="_top" onClick="MM_nbGroup('down','navbar1','index_r2_c8','img/index_r2_c8_f3.jpg',1);" onMouseOver="MM_menuShowMenu('MMMenuContainer0312205212_2', 'MMMenu0312205212_2',0,50,'index_r2_c8');MM_nbGroup('over','index_r2_c8','img/index_r2_c8_f2.jpg','img/index_r2_c8_f4.jpg',1);" onMouseOut="MM_nbGroup('out');MM_menuStartTimeout(1000);"><img name="index_r2_c8" src="img/index_r2_c8.jpg" width="100" height="51" border="0" id="index_r2_c8" alt="Reservas" /></a></td>
                   <td colspan="2"><a href="ingreso.php" target="_top" onClick="MM_nbGroup('down','navbar1','index_r2_c9','img/index_r2_c9_f3.jpg',1);" onMouseOver="MM_menuShowMenu('MMMenuContainer0312205212_3', 'MMMenu0312205212_3',0,50,'index_r2_c9');MM_nbGroup('over','index_r2_c9','img/index_r2_c9_f2.jpg','img/index_r2_c9_f4.jpg',1);" onMouseOut="MM_nbGroup('out');MM_menuStartTimeout(1000);"><img name="index_r2_c9" src="img/index_r2_c9.jpg" width="100" height="51" border="0" id="index_r2_c9" alt="Solicitudes" /></a></td>
-                  
+
                   <td><a href="galeria/galeria.php" target="_top" onMouseOut="MM_nbGroup('out');" onMouseOver="MM_nbGroup('over','index_r2_c12','img/index_r2_c12_f2.jpg','img/index_r2_c12_f4.jpg',1);" onClick="MM_nbGroup('down','navbar1','index_r2_c12','img/index_r2_c12_f3.jpg',1);"><img name="index_r2_c12" src="img/index_r2_c12.jpg" width="100" height="51" border="0" id="index_r2_c12" alt="Galeria" /></a></td>
                   <td colspan="2"><a href="contacto.php" target="_top" onMouseOut="MM_nbGroup('out');" onMouseOver="MM_nbGroup('over','index_r2_c13','img/index_r2_c13_f2.jpg','img/index_r2_c13_f4.jpg',1);" onClick="MM_nbGroup('down','navbar1','index_r2_c13','img/index_r2_c13_f3.jpg',1);"><img name="index_r2_c13" src="img/index_r2_c13_f3.jpg" width="100" height="51" border="0" id="index_r2_c13" alt="Contactos" /></a></td>
                   <td><a href="noticias.php" target="_top" onMouseOut="MM_nbGroup('out');" onMouseOver="MM_nbGroup('over','index_r2_c15','img/index_r2_c15_f2.jpg','img/index_r2_c15_f4.jpg',1);" onClick="MM_nbGroup('down','navbar1','index_r2_c15','img/index_r2_c15_f3.jpg',1);"><img name="index_r2_c15" src="img/index_r2_c15.jpg" width="100" height="51" border="0" id="index_r2_c15" alt="Actualidad" /></a></td>
@@ -143,6 +142,8 @@ Atenderemos su petici&oacute;n lo antes posible. </p>
 EOT;
                       ?>
                       <?php
+
+                      /*
                        require "Exception.php";
                        require "PHPMailer.php";
                        require "SMTP.php";
@@ -171,41 +172,51 @@ EOT;
                        $mail->MsgHTML($body);
  
                        $mail->send();
-                      
+
+                       */
+                      /*
+                      require_once("bd.php");
+
                       $nom = $_POST['nombre'];
                       $dni = $_POST['dni'];
-                      $nac = $_POST['nacido'];
-                      $ciu = $_POST['ciudad'];
+                      $nac = $_POST['fechanacimiento'];
+                      $ciu = $_POST['domicilio'];
                       $cal = $_POST['calle'];
                       $num = $_POST['numero'];
-                      $tel1 = $_POST['telefono'];
+                      $tel = $_POST['telefono'];
                       $est = $_POST['estado'];
                       $pro = $_POST['profesion'];
                       $email = $_POST['email'];
-                      $nom1 = $_POST['Nombrefam1'];
-                      $dni1 = $_POST['dnifam1'];
-                      $nom2 = $_POST['Nombrefam2'];
-                      $dni2 = $_POST['dnifam2'];
-                      $ciu1 = $_POST['ciudad2'];
-                      $dia = $_POST['dia2'];
-                      $mes = $_POST['mes2'];
-                      $ano = $_POST['ano2'];
-                      $cony3 = $_POST['conyuge'];
-                      $dni3 = $_POST['dnicony'];
-                      $nac3 = $_POST['fnacicony'];
-                      $mai3 = $_POST['emailcony'];
-                      $hij5 = $_POST['hijo1'];
-                      $dni5 = $_POST['dni1'];
-                      $nac5 = $_POST['fnaci1'];
-                      $mail5 = $_POST['email1'];
-                      $hij6 = $_POST['hijo2'];
-                      $dni6 = $_POST['dni2'];
-                      $nac6 = $_POST['fnaci2'];
-                      $mail6 = $_POST['email2'];
-                      
-                      $men = $_POST['obser'];
-                      $rec = $_POST['aviso_legal4'];
+                      $nomcony = $_POST['conyuge'];
+                      $dnicony = $_POST['dniconyuge'];
+                      $fnacony = $_POST['nacimientoconyuge'];
+                      $emailcony = $_POST['emailconyuge'];
+                      $hijo1 = $_POST['hijo1'];
+                      $dnihijo1 = $_POST['dnihijo1'];
+                      $fnacihijo1 = $_POST['nacimientohijo1'];
+                      $emailhijo1 = $_POST['emailhijo1'];
+                      $hijo2 = $_POST['hijo2'];
+                      $dnihijo2 = $_POST['dnihijo2'];
+                      $fnacihijo2 = $_POST['nacimientohijo2'];
+                      $emailhijo2 = $_POST['emailhijo2'];
+                      $obser = $_POST['observaciones'];
 
+                      $datos = "INSERT INTO INGRESO (nombre, dni, nacimiento, ciudad, 
+                      calle, numero, telefono, estado, profesion, email,  conyuge, dniconyuge, nacimientoconyuge, emailconyuge, hijo1, dnihijo1,
+                       nacimientohijo1, emailhijo1, hijo2, dnihjo2, nacimientohijo2, emailhijo2, observaciones)
+                      VALUES ('". $nom . "', '". $dni . "', '".  $nac ."' , '". $ciu . "', 
+                      '" .$cal ."', '". $num . "', '". $tel . "', '". $est ."' , '". $pro ."' , '". $email. "' , '". $nomcony."' , '". $dnicony."' , 
+                      '". $fnacony."' , '". $emailcony."' , '". $hijo1."' , '".$dnihijo1."' , '".$fnacihijo1."' ,
+                      '". $emailhijo1."' , '".$hijo2."' , '".$dnihijo2."' , '".$fnacihijo2."' , '".$emailhijo2 . "' , '". $obser ."')";
+
+                      if ($conn->query($datos) === TRUE) {
+                        echo "New record created successfully";
+                      } else {
+                        echo "Error: " . $datos . "<br>" . $conn->error;
+                      }
+
+
+                      */
                       ?>
                     </p>
                     <p>&nbsp;</p>

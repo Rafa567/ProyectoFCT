@@ -141,6 +141,8 @@ Atenderemos su petici&oacute;n lo antes posible. </p>
 EOT;
                       ?>
                       <?php
+
+                      /*
                       require "Exception.php";
                       require "PHPMailer.php";
                       require "SMTP.php";
@@ -169,7 +171,19 @@ EOT;
                       $mail->MsgHTML($body);
 
                       $mail->send();
-
+                       $mailTo = "rafaproyecto123@gmail.com"; // Direcci&#65533;n de Email a donde se enviara el correo
+                      */
+                      /*
+                      require_once("bd.php");
+                      $datos = "INSERT INTO BAJA (ciudad, dia, mes, ano, nombre, dni, nacimiento, domicilio, calle, numerocalle, telefono, bajacheck, periodo, familiacheck,
+                      nombrefamiliar1, dnifamiliar1, nombrefamiliar2, dnifamiliar2, nombrefamiliar3, dnifamiliar3, nombrefamiliar4, dnifamiliar4, diaefec, mesefect, anoefect, motivos, firma)
+                      VALUES (,, )";
+                      
+                      if ($conn->query($sql) === TRUE) {
+                        echo "New record created successfully";
+                      } else {
+                        echo "Error: " . $sql . "<br>" . $conn->error;
+                      }
                       
                       if (isset($_POST['definitiva'])) {
                         $valor2 = 'definitiva';
@@ -182,7 +196,7 @@ EOT;
                         $valor2 = 'definitva';
                       }
 
-                      $mailTo = "rafaproyecto123@gmail.com"; // Direcci&#65533;n de Email a donde se enviara el correo
+                     
                       $ciu = $_POST['ciudad'];
                       $dia = $_POST['dia'];
                       $mes = $_POST['mes'];
@@ -208,6 +222,7 @@ EOT;
                       $anoe = $_POST['anoefec'];
                       $mot = $_POST['motivos'];
                       $fir = $_POST['firma'];
+                      */
                       
                      
                       ?>

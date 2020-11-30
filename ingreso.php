@@ -167,9 +167,9 @@
                                                   con DNI n&ordm;
                                                   <input name="dni" type="text" id="dni" size="8" required/>
                                                   Nacido el
-                                                  <input name="nacido" type="text" id="nacido" size="6" required/>
+                                                  <input name="fechanacimiento" type="text" id="fechanacimiento" size="6" required/>
                                                   con domicilio en
-                                                  <input name="ciudad" type="text" id="ciudad" size="10" required/>
+                                                  <input name="domicilio" type="text" id="domicilio" size="10" required/>
                                                 </div>
                                               </th>
                                             </tr>
@@ -243,11 +243,11 @@
                                                 <div align="center">Conyuge
                                                   <input name="conyuge" type="text" id="conyuge" size="20" />
                                                   DNI
-                                                  <input name="dnicony" type="text" id="dnicony" size="8" />
+                                                  <input name="dniconyuge" type="text" id="dniconyuge" size="8" />
                                                   F. Nacimiento
-                                                  <input name="fnacicony" type="text" id="fnacicony" size="8" />
+                                                  <input name="nacimientoconyuge" type="text" id="nacimientoconyuge" size="8" />
                                                   e mail
-                                                  <input name="emailcony" type="text" id="emailcony" size="20" />
+                                                  <input name="emailconyuge" type="text" id="emailconyuge" size="20" />
                                                 </div>
                                               </th>
                                             </tr>
@@ -256,11 +256,11 @@
                                                 <div align="center">Hijo 1&ordm;
                                                   <input name="hijo1" type="text" id="hijo1" size="20" />
                                                   DNI
-                                                  <input name="dni1" type="text" id="dni1" size="8" />
+                                                  <input name="dnihijo1" type="text" id="dnihijo1" size="8" />
                                                   F. Nacimiento
-                                                  <input name="fnaci1" type="text" id="fnaci1" size="8" />
+                                                  <input name="nacimientohijo1" type="text" id="nacimientohijo1" size="8" />
                                                   e mail
-                                                  <input name="email1" type="text" id="email1" size="20" />
+                                                  <input name="emailhijo1" type="text" id="emailhijo1" size="20" />
                                                 </div>
                                               </th>
                                             </tr>
@@ -269,18 +269,18 @@
                                                 <div align="center">Hijo 2&ordm;
                                                   <input name="hijo2" type="text" id="hijo2" size="20" />
                                                   DNI
-                                                  <input name="dni2" type="text" id="dni2" size="8" />
+                                                  <input name="dnihijo2" type="text" id="dnihijo2" size="8" />
                                                   F. Nacimiento
-                                                  <input name="fnaci2" type="text" id="fnaci2" size="8" />
+                                                  <input name="nacimientohijo2" type="text" id="nacimientohijo2" size="8" />
                                                   e mail
-                                                  <input name="email2" type="text" id="email2" size="20" />
+                                                  <input name="emailhijo2" type="text" id="emailhijo2" size="20" />
                                                 </div>
                                               </th>
                                             </tr>                                                                                  
                                             <tr>                                              
                                               <th height="30" colspan="2" valign="top" class="Estilo47" scope="row">
                                                 <div align="center">Observaciones:
-                                                  <textarea name="obser" cols="80" id="obser"></textarea>
+                                                  <textarea name="observaciones" cols="80" id="observaciones"></textarea>
                                                 </div>
                                               </th>
                                             </tr>

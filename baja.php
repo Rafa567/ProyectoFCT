@@ -128,7 +128,7 @@
                                   con DNI n&ordm;
                                   <input name="dni" type="text" id="dni" size="8" required />
                                   Nacido el
-                                  <input name="nacido" type="text" id="nacido" size="6" required />
+                                  <input name="nacimiento" type="text" id="nacimiento" size="6" required />
                                   con domicilio en
                                   <input name="ciudad2" type="text" id="ciudad2" size="10" required />
                                 </div>
