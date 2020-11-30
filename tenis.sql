@@ -1,23 +1,29 @@
+DROP TABLE IF EXISTS RESERVASOCIOS;
+DROP TABLE IF EXISTS RESERVANOSOCIOS;
+DROP TABLE IF EXISTS INGRESO;
+DROP TABLE IF EXISTS BAJA;
+
+
 CREATE TABLE RESERVASOCIOS (
 
-    id_reserva_socio int(10) PRIMARY KEY NOT NULL,
+    id_reserva_socio int PRIMARY KEY NOT NULL,
     nombre varchar(255),
     dni varchar(255),
     calle varchar(255),
-    numero int(10),
+    numero int,
     ciudad varchar(255),
     provincia varchar(255),
-    telefono int(10),
+    telefono int,
     email varchar(255),
-    nsocio int(10),
+    nsocio int,
     otras varchar(255),
     celebrar varchar(255),
     diacelebracion varchar(255),
     horacomienzo varchar(255), 
-    duraccion int(10),
+    duraccion int,
     diaactual varchar(255),
     mesactual varchar(255),
-    anoactual int(10),
+    anoactual int,
     firma varchar(255),
     observaciones varchar(255),
     primeraplanta boolean, 
@@ -111,7 +117,7 @@ CREATE TABLE BAJA (
     nombre varchar(255),
     dni varchar(255),
     nacimiento varchar(255),
-    domiciliovarchar(255),
+    domicilio varchar(255),
     calle varchar(255),
     numerocalle int(10),
     telefono int(10),
