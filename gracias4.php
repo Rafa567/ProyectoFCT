@@ -155,7 +155,7 @@ EOT;
                       ?>
                       <?php
 
-
+                    /*
                       require "Exception.php";
                       require "PHPMailer.php";
                       require "SMTP.php";
@@ -180,84 +180,53 @@ EOT;
                       $mail->Password   = 'contrasena123';
                       $mail->SetFrom('rafaproyecto123@gmail.com', "contrasena123");
                       $mail->AddReplyTo('no-reply@mycomp.com', 'no-reply');
-                      $mail->Subject    = 'Correo de prueba PHPMailer';
+                      $mail->Subject    = 'Correo de prueba PHPMailer';                      
                       $mail->MsgHTML($body);
 
                       $mail->send();
+                      */
 
-                      $che = false;
-                      $che1 = false;
-                      $che2 = false;
-                      $che3 = false;
-                      $che4 = false;
-                      $che5 = false;
-                      $che6 = false;
-                      $che7 = false;
+                     
+                      
+                    
+                      require_once("bd.php");
 
-                      if (isset($_POST['primerplan'])) {
-                        $che = true;
-                      }
-                      if (isset($_POST['bodeguita'])) {
-                        $che1 = true;
-                      }
-                      if (isset($_POST['corredor'])) {
-                        $che2 = true;
-                      }
-                      if (isset($_POST['jardines3'])) {
-                        $che3 = true;
-                      }
-                      if (isset($_POST['salontv'])) {
-                        $che4 = true;
-                      }
-                      if (isset($_POST['sjuventud'])) {
-                        $che5 = true;
-                      }
-                      if (isset($_POST['salonacto'])) {
-                        $che6 = true;
-                      }
-                      if (isset($_POST['otras'])) {
-                        $che7 = true;
-                      }
 
-                      $mailTo = "rafaproyecto123@gmail.com"; // Direcci&#65533;n de Email a donde se enviara el correo              
+
+                   
+
                       $nom = $_POST['nombre'];
                       $dni = $_POST['dni'];
                       $cal = $_POST['calle'];
                       $num = $_POST['numero'];
                       $ciu = $_POST['ciudad'];
                       $pro = $_POST['provincia'];
-                      $tel1 = $_POST['telefono'];
+                      $tel = $_POST['telefono'];
                       $email = $_POST['email'];
-                      $soc = $_POST['nsocio'];
-                      $obser = $_POST['otrasobser'];
-                      $cele = $_POST['celebrar'];
-
-                      $diac = $_POST['diacelebrar'];
-                      $horae = $_POST['horaempie'];
-                      $dura = $_POST['duraccion'];
-                      $dia = $_POST['dia22'];
-                      $mes = $_POST['mes22'];
-                      $ano = $_POST['ano2'];
-                      $fir = $_POST['firma'];
-                      $obse = $_POST['obser'];
-                      $rec = $_POST['aviso_legal'];
+                      $nsocio = $_POST['nsocio'];
+                      $celebrar = $_POST['celebrar'];
+                      $diacelebracion = $_POST['diacelebracion'];
+                      $horacomienzo = $_POST['horacomienzo'];
+                      $duraccion = $_POST['duraccion'];
+                      $diaactual = $_POST['diaactual'];
+                      $mesactual = $_POST['mesactual'];
+                      $anoactual = $_POST['anoactual'];
+                      $firma = $_POST['firma'];
 
 
+                      
+                     
+                      $datos = "INSERT INTO RESERVASOCIOS (nombre,dni,calle,numero,ciudad,provincia,telefono,email,nsocio,celebrar,diacelebracion,
+                      horacomienzo, duraccion, diaactual, mesactual, anoactual, firma)
+                      VALUES ('". $nom . "', '". $dni . "', '".  $cal ."' , '". $num . "', 
+                      '" .$ciu ."', '". $pro . "', '". $tel . "'  , '". $email."' , '".$nsocio."' , '".$celebrar."' ,
+                      '". $diacelebracion."','".$horacomienzo."','".$duraccion."','".$diaactual."','".$mesactual."','".$anoactual."', '".$firma."')";
 
-
-                      //CHECKBOX
-
-
-
-                      if (isset($_POST['SI'])) {
-                        $valor1 = 'si';
-                      } elseif (isset($_POST['NO'])) {
-                        $valor1 = 'no';
+                      if ($conn->query($datos) === TRUE) {
+                        echo "Enviado correctamente";
+                      } else {
+                        echo "Error: " . $datos . "<br>" . $conn->error;
                       }
-
-
-
-                      $aviso = $_POST['aviso_legal'];
 
 
 

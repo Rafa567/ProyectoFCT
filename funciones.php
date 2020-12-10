@@ -189,7 +189,7 @@ function theFooter()
                     <th width="41" height="10" class="Estilo2">&nbsp;</th>
                     <th width="73" height="10" class="Estilo2">&nbsp;</th>
                     <th width="82" height="10" class="Estilo2">
-                      <div align="left"><a href="Sala_taurina.php" target="_top" class="Estilo2">Sala Taurina
+                      <div align="left"><a href="sala_taurina.php" target="_top" class="Estilo2">Sala Taurina
                         </a></div>
                     </th>
                     <th width="42" height="10" class="Estilo2">&nbsp;</th>
@@ -202,7 +202,7 @@ function theFooter()
                     <th height="10" class="Estilo2">&nbsp;</th>
                     <th height="10" class="Estilo2">&nbsp;</th>
                     <th height="10" class="Estilo2">
-                      <div align="left"><a href="Bodeguita.php" target="_top" class="Estilo2">Sala
+                      <div align="left"><a href="bodeguita.php" target="_top" class="Estilo2">Sala
                           Bodeg&uuml;ita</a></div>
                     </th>
                   </tr>
@@ -211,7 +211,7 @@ function theFooter()
                     <th height="10" class="Estilo2">&nbsp;</th>
                     <th height="10" class="Estilo2">&nbsp;</th>
                     <th height="10" class="Estilo2">
-                      <div align="left"><a href="salon_actoshtml" target="_top" class="Estilo2">Sala Actos</a>
+                      <div align="left"><a href="salon_actos.php" target="_top" class="Estilo2">Sala Actos</a>
                       </div>
                     </th>
                   </tr>

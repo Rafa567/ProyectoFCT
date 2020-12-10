@@ -174,7 +174,7 @@ EOT;
                        $mail->send();
 
                        */
-                      /*
+                      
                       require_once("bd.php");
 
                       $nom = $_POST['nombre'];
@@ -201,22 +201,22 @@ EOT;
                       $emailhijo2 = $_POST['emailhijo2'];
                       $obser = $_POST['observaciones'];
 
-                      $datos = "INSERT INTO INGRESO (nombre, dni, nacimiento, ciudad, 
+                      $datos = "INSERT INTO INGRESO (nombre, dni, fechanacimiento, ciudad, 
                       calle, numero, telefono, estado, profesion, email,  conyuge, dniconyuge, nacimientoconyuge, emailconyuge, hijo1, dnihijo1,
-                       nacimientohijo1, emailhijo1, hijo2, dnihjo2, nacimientohijo2, emailhijo2, observaciones)
+                       nacimientohijo1, emailhijo1, hijo2, dnihijo2, nacimientohijo2, emailhijo2, observaciones)
                       VALUES ('". $nom . "', '". $dni . "', '".  $nac ."' , '". $ciu . "', 
                       '" .$cal ."', '". $num . "', '". $tel . "', '". $est ."' , '". $pro ."' , '". $email. "' , '". $nomcony."' , '". $dnicony."' , 
                       '". $fnacony."' , '". $emailcony."' , '". $hijo1."' , '".$dnihijo1."' , '".$fnacihijo1."' ,
                       '". $emailhijo1."' , '".$hijo2."' , '".$dnihijo2."' , '".$fnacihijo2."' , '".$emailhijo2 . "' , '". $obser ."')";
 
                       if ($conn->query($datos) === TRUE) {
-                        echo "New record created successfully";
+                        echo "Enviado correctamente";
                       } else {
                         echo "Error: " . $datos . "<br>" . $conn->error;
                       }
 
 
-                      */
+                      
                       ?>
                     </p>
                     <p>&nbsp;</p>

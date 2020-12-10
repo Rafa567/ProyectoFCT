@@ -6,7 +6,7 @@ DROP TABLE IF EXISTS BAJA;
 
 CREATE TABLE RESERVASOCIOS (
 
-    id_reserva_socio int PRIMARY KEY NOT NULL,
+    id_reserva_socio int PRIMARY KEY NOT NULL AUTO_INCREMENT,
     nombre varchar(255),
     dni varchar(255),
     calle varchar(255),
@@ -39,7 +39,7 @@ CREATE TABLE RESERVASOCIOS (
 CREATE TABLE RESERVANOSOCIOS (
 
 
-    id_reserva_nosocio int PRIMARY KEY NOT NULL,
+    id_reserva_nosocio int PRIMARY KEY NOT NULL AUTO_INCREMENT,
     nombre varchar(255),
     dni varchar(255),
     calle varchar(255),
@@ -48,7 +48,7 @@ CREATE TABLE RESERVANOSOCIOS (
     provincia varchar(255),
     telefono int,
     email varchar(255),
-    nsocio int,
+    nsocio boolean,
     otras varchar(255),
     celebrar varchar(255),
     diacelebracion varchar(255),
@@ -72,7 +72,7 @@ CREATE TABLE RESERVANOSOCIOS (
 
 CREATE TABLE INGRESO (
 
-    id_ingreso int PRIMARY KEY NOT NULL,
+    id_ingreso int PRIMARY KEY NOT NULL AUTO_INCREMENT,
     nombre varchar(255),
     dni varchar(255),
     fechanacimiento varchar(255),
@@ -109,7 +109,7 @@ CREATE TABLE INGRESO (
 
 CREATE TABLE BAJA (
 
-    id_baja int PRIMARY KEY,
+    id_baja int PRIMARY KEY AUTO_INCREMENT,
     ciudad varchar(255),
     dia int,
     mes varchar(255),

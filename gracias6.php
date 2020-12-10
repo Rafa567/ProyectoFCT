@@ -138,6 +138,9 @@ EOT;
                       ?>
                       <?php
 
+                     
+
+                    /*
                       require "Exception.php";
                       require "PHPMailer.php";
                       require "SMTP.php";
@@ -153,6 +156,7 @@ EOT;
                       $body = 'Cuerpo del correo de prueba';
 
                       $mail->IsSMTP();
+
                       $mail->Host       = 'smtp.gmail.com';
                       $mail->SMTPSecure = 'tls';
                       $mail->Port       = 587;
@@ -166,70 +170,47 @@ EOT;
                       $mail->MsgHTML($body);
 
                       $mail->send();
+                      */
+
+                      require_once("bd.php");
 
 
 
-                      $che = false;
-                      $che1 = false;
-                      $che2 = false;
-                      $che3 = false;
-                      $che4 = false;
-                      $che5 = false;
-                      $che6 = false;
-                      $che7 = false;
-
-                      if (isset($_POST['primerplan'])) {
-                        $che = true;
-                      }
-                      if (isset($_POST['bodeguita'])) {
-                        $che1 = true;
-                      }
-                      if (isset($_POST['corredor'])) {
-                        $che2 = true;
-                      }
-                      if (isset($_POST['jardines3'])) {
-                        $che3 = true;
-                      }
-                      if (isset($_POST['salontv'])) {
-                        $che4 = true;
-                      }
-                      if (isset($_POST['sjuventud'])) {
-                        $che5 = true;
-                      }
-                      if (isset($_POST['salonacto'])) {
-                        $che6 = true;
-                      }
-                      if (isset($_POST['otras'])) {
-                        $che7 = true;
-                      }
-
-
-
-
-
-
+                   
 
                       $nom = $_POST['nombre'];
-                      $dni = $_POST['nodni'];
-                      $cal = $_POST['calle3'];
-                      $num = $_POST['numero3'];
-                      $ciu = $_POST['ciudad3'];
-                      $pro = $_POST['provincia3'];
-                      $tel2 = $_POST['telefono3'];
+                      $dni = $_POST['dni'];
+                      $cal = $_POST['calle'];
+                      $num = $_POST['numero'];
+                      $ciu = $_POST['ciudad'];
+                      $pro = $_POST['provincia'];
+                      $tel = $_POST['telefono'];
+                      $celebrar = $_POST['celebrar'];
+                      $diacelebracion = $_POST['diacelebracion'];
+                      $horacomienzo = $_POST['horacomienzo'];
+                      $duraccion = $_POST['duraccion'];
+                      $diaactual = $_POST['diaactual'];
+                      $mesactual = $_POST['mesactual'];
+                      $anoactual = $_POST['anoactual'];
+                      $firma = $_POST['firma'];
 
 
                       
-                      $obser = $_POST['otrasobser2'];
-                      $cele = $_POST['celebrar3'];
-                      $diac = $_POST['diacelebrar2'];
-                      $horae = $_POST['horaempie2'];
-                      $dura = $_POST['duraccion2'];
-                      $dia = $_POST['dia222'];
-                      $mes = $_POST['mes222'];
-                      $ano = $_POST['ano22'];
-                      $fir = $_POST['firma2'];
-                      $obse = $_POST['obser2'];
-                      $rec = $_POST['aviso_legal2'];
+                     
+                      $datos = "INSERT INTO RESERVANOSOCIOS (nombre,dni,calle,numero,ciudad,provincia,telefono,celebrar,diacelebracion,
+                      horacomienzo, duraccion, diaactual, mesactual, anoactual, firma)
+                      VALUES ('". $nom . "', '". $dni . "', '".  $cal ."' , '". $num . "', 
+                      '" .$ciu ."', '". $pro . "', '". $tel . "'  , '".$celebrar."' ,
+                      '". $diacelebracion."','".$horacomienzo."','".$duraccion."','".$diaactual."','".$mesactual."','".$anoactual."', '".$firma."')";
+
+                      if ($conn->query($datos) === TRUE) {
+                        echo "Enviado correctamente";
+                      } else {
+                        echo "Error: " . $datos . "<br>" . $conn->error;
+                      }
+
+
+
                       ?>
                     </p>
                     <p>&nbsp;</p>

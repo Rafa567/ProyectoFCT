@@ -204,8 +204,8 @@
                                                             <th height="30" colspan="2" valign="middle" class="Estilo47" scope="row">
                                                               <div align="center">D.
                                                                 <input name="nombre" type="text" id="nombre" size="60" required />
-                                                                con DNI n&ordm;
-                                                                <input name="nodni" type="text" id="nodni" size="8" required />
+                                                                con DNI ;
+                                                                <input name="dni" type="text" id="dni" size="8" required />
                                                               </div>
                                                             </th>
                                                           </tr>
@@ -215,20 +215,20 @@
                                                                 <tr>
                                                                   <th scope="row">
                                                                     <div align="center"> Con domicilio social en calle
-                                                                      <input name="calle3" type="text" id="calle3" size="35" required />
+                                                                      <input name="calle" type="text" id="calle" size="35" required />
                                                                       n&ordm;
-                                                                      <input name="numero3" type="text" id="numero3" size="6" />
+                                                                      <input name="numero" type="text" id="numero size="6" />
                                                                     </div>
                                                                   </th>
                                                                 </tr>
                                                                 <tr>
                                                                   <th scope="row">
                                                                     <div align="center"> de
-                                                                      <input name="ciudad3" type="text" id="ciudad3" size="15" required />
+                                                                      <input name="ciudad" type="text" id="ciudad" size="15" required />
                                                                       provincia de
-                                                                      <input name="provincia3" type="text" id="provincia3" size="16" required />
+                                                                      <input name="provincia" type="text" id="provincia" size="16" required />
                                                                       y n&ordm; telefono
-                                                                      <input name="telefono3" type="text" id="telefono3" size="12" required />
+                                                                      <input name="telefono" type="text" id="telefono" size="12" required />
                                                                     </div>
                                                                   </th>
                                                                 </tr>
@@ -241,7 +241,7 @@
                                                               Deportiva Tenis Club de &eacute;cija SOLICITO </th>
                                                           </tr>
                                                           <tr>
-                                                            <th height="30" colspan="2" valign="middle" class="Estilo47" scope="row"><input type="radio" name="eleccion" value="ok" id="particular" required/>
+                                                            <th height="30" colspan="2" valign="middle" class="Estilo47" scope="row"><input type="radio" name="eleccion" value="ok" id="particular" />
                                                               <label for="checkbox">En mi propio nombre y de forma
                                                                 particular </label></th>
                                                           </tr>
@@ -276,7 +276,7 @@
                                                                     </th>
                                                                     <th width="5%">
                                                                       <div align="left">
-                                                                        <input type="checkbox" name="primerplan2" value="OK" id="primerplan2" />
+                                                                        <input type="checkbox" name="primerplanta" value="OK" id="primerplanta" />
                                                                         <label for="checkbox"></label>
                                                                       </div>
                                                                     </th>
@@ -289,7 +289,7 @@
                                                                     </th>
                                                                     <th width="5%">
                                                                       <div align="left">
-                                                                        <input type="checkbox" name="bodeguita2" value="OK" id="bodeguita2" />
+                                                                        <input type="checkbox" name="bodeguita" value="OK" id="bodeguita" />
                                                                       </div>
                                                                     </th>
                                                                   </tr>
@@ -300,7 +300,7 @@
                                                                     </th>
                                                                     <th width="5%">
                                                                       <div align="left">
-                                                                        <input type="checkbox" name="corredor2" value="OK" id="corredor2" />
+                                                                        <input type="checkbox" name="corredor" value="OK" id="corredor" />
                                                                       </div>
                                                                     </th>
                                                                     <th width="5%">
@@ -312,7 +312,7 @@
                                                                     </th>
                                                                     <th width="5%">
                                                                       <div align="left">
-                                                                        <input type="checkbox" name="jardines32" value="OK" id="jardines32" />
+                                                                        <input type="checkbox" name="jardines" value="OK" id="jardines" />
                                                                       </div>
                                                                     </th>
                                                                   </tr>
@@ -323,7 +323,7 @@
                                                                     </th>
                                                                     <th width="5%">
                                                                       <div align="left">
-                                                                        <input type="checkbox" name="salontv2" value="OK" id="salontv2" />
+                                                                        <input type="checkbox" name="salontv" value="OK" id="salontv" />
                                                                       </div>
                                                                     </th>
                                                                     <th width="5%">
@@ -335,7 +335,7 @@
                                                                     </th>
                                                                     <th width="5%">
                                                                       <div align="left">
-                                                                        <input type="checkbox" name="sjuventud2" value="OK" id="sjuventud2" />
+                                                                        <input type="checkbox" name="salajuventud" value="OK" id="salajuventud" />
                                                                       </div>
                                                                     </th>
                                                                   </tr>
@@ -346,7 +346,7 @@
                                                                     </th>
                                                                     <th width="5%">
                                                                       <div align="left">
-                                                                        <input type="checkbox" name="salonacto2" value="OK" id="salonacto2" />
+                                                                        <input type="checkbox" name="salonacto" value="OK" id="salonacto" />
                                                                       </div>
                                                                     </th>
                                                                     <th width="5%">
@@ -360,7 +360,7 @@
                                                                     </th>
                                                                     <th width="5%">
                                                                       <div align="left">
-                                                                        <input type="checkbox" name="otras2" value="OK" id="otras2" />
+                                                                        <input type="checkbox" name="otrascheck" value="OK" id="otrascheck" />
                                                                       </div>
                                                                     </th>
                                                                   </tr>
@@ -370,7 +370,7 @@
                                                                     <th width="5%">&nbsp;</th>
                                                                     <th colspan="2">
                                                                       <div align="left">
-                                                                        <input name="otrasobser2" type="text" id="otrasobser2" size="40" />
+                                                                        <input name="otrasobservaciones" type="text" id="otrasobservaciones" size="40" />
                                                                       </div>
                                                                     </th>
                                                                   </tr>
@@ -381,18 +381,18 @@
                                                           <tr>
                                                             <th height="72" colspan="2" valign="bottom" class="Estilo47" scope="row">
                                                               <div align="center">Para celebrar en ella
-                                                                <input name="celebrar3" type="text" id="celebrar3" size="40" required />
+                                                                <input name="celebrar" type="text" id="celebrar" size="40" required />
                                                                 el proximo d&iacute;a
-                                                                <input name="diacelebrar2" type="text" id="diacelebrar2" value="01/01/2000" size="12" />
+                                                                <input name="diacelebracion" type="text" id="diacelebracion"  size="12" />
                                                               </div>
                                                             </th>
                                                           </tr>
                                                           <tr>
                                                             <th height="30" colspan="2" valign="middle" class="Estilo47" scope="row">
                                                               <div align="center">a las
-                                                                <input name="horaempie2" type="text" id="horaempie2" value="00:00" size="12" required />
+                                                                <input name="horacomienzo" type="text" id="horacomienzo"  size="12" required />
                                                                 horas, con una duraci&oacute;n total aproximada de
-                                                                <input name="duraccion2" type="text" id="duraccion2" value="00:00" size="12" required />
+                                                                <input name="duraccion" type="text" id="duraccion"  size="12" required />
                                                                 horas. Dicha</div>
                                                             </th>
                                                           </tr>
@@ -403,10 +403,10 @@
                                                                 <label></label>
                                                               </p>
                                                               <label>celebraci&oacute;n :
-                                                                <input type="radio" name="eleccion" value="OK" id="SI2" required/>
+                                                                <input type="radio" name="eleccion" value="OK" id="SI" required/>
                                                                 SI</label>
                                                               <label>
-                                                                <input type="radio" name="eleccion" value="OK" id="NO2" />
+                                                                <input type="radio" name="eleccion" value="OK" id="NO" />
                                                                 NO </label>
                                                               <label></label>
                                                               <label for="radio"></label>
@@ -417,25 +417,25 @@
                                                           <tr>
                                                             <th height="30" colspan="2" valign="middle" class="Estilo47" scope="row">
                                                               <div align="center">En &Eacute;cija,a
-                                                                <input name="dia222" type="text" id="dia222" size="4" required />
+                                                                <input name="diaactual" type="text" id="diaactual" size="4" required />
                                                                 de
-                                                                <input name="mes222" type="text" id="mes222" size="12" required />
+                                                                <input name="mesactual" type="text" id="mesactual" size="12" required />
                                                                 del
-                                                                <input name="ano22" type="text" id="ano22" size="4" required />
+                                                                <input name="anoactual" type="text" id="anoactual" size="4" required />
                                                               </div>
                                                             </th>
                                                           </tr>
                                                           <tr>
                                                             <th height="30" colspan="2" valign="middle" class="Estilo47" scope="row">
                                                               <div align="center">Firmado indique su nombre:
-                                                                <input name="firma2" type="text" id="firma2" size="60" required />
+                                                                <input name="firma" type="text" id="firma" size="60" required />
                                                               </div>
                                                             </th>
                                                           </tr>
                                                           <tr>
                                                             <th height="30" colspan="2" valign="top" class="Estilo47" scope="row">
                                                               <div align="center">Observaciones:
-                                                                <textarea name="obser2" cols="60" id="obser2"></textarea>
+                                                                <textarea name="observaciones" cols="60" id="observaciones"></textarea>
                                                               </div>
                                                             </th>
                                                           </tr>
@@ -522,98 +522,7 @@
                   <td><img src="img/spacer.gif" width="1" height="27" border="0" alt="spacer" /></td>
                 </tr>
               </table>
-              <div id="MMMenuContainer0312205212_0">
-                <div id="MMMenu0312205212_0" onmouseout="MM_menuStartTimeout(1000);" onmouseover="MM_menuResetTimeout();" style="height: auto;">
-                  <a href="bienvenida.php" target="_blank" id="MMMenu0312205212_0_Item_0" class="MMMIFVStyleMMMenu0312205212_0" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_0');">
-                    Bienvenida
-                  </a>
-                  <a href="historia.php" target="_blank" id="MMMenu0312205212_0_Item_1" class="MMMIVStyleMMMenu0312205212_0" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_0');">
-                    Historia
-                  </a>
-
-                </div>
-              </div>
-              <div id="MMMenuContainer0312205212_1">
-                <div id="MMMenu0312205212_1" onmouseout="MM_menuStartTimeout(1000);" onmouseover="MM_menuResetTimeout();">
-                  <a href="javascript:;" id="MMMenu0312205212_1_Item_0" class="MMMIFVStyleMMMenu0312205212_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1','1');">
-                    <span class="MMMenuItemSpanMMMenu0312205212_1">Area&nbsp;Social</span>
-                    <img src="img/arrows.gif" alt="" class="MMArrowStyleMMMenu0312205212_1" />
-                  </a>
-                  <a href="javascript:;" id="MMMenu0312205212_1_Item_1" class="MMMIVStyleMMMenu0312205212_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1','2');">
-                    <span class="MMMenuItemSpanMMMenu0312205212_1">Area&nbsp;Deportiva</span>
-                    <img src="img/arrows.gif" alt="" class="MMArrowStyleMMMenu0312205212_1" />
-                  </a>
-                </div>
-                <div id="MMMenu0312205212_1_1" onmouseout="MM_menuStartTimeout(1000);" onmouseover="MM_menuResetTimeout();">
-                  <a href="sala_infantil_juvenil.php" target="_blank" id="MMMenu0312205212_1_1_Item_0" class="MMMIFVStyleMMMenu0312205212_1_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_1');">
-                    Sala&nbsp;Infantil&nbsp;Juvenil
-                  </a>
-                  <a href="bar_restaurante.php" target="_blank" id="MMMenu0312205212_1_1_Item_1" class="MMMIVStyleMMMenu0312205212_1_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_1');">
-                    Bar&nbsp;Restaurante
-                  </a>
-                  <a href="biblioteca.php" target="_blank" id="MMMenu0312205212_1_1_Item_2" class="MMMIVStyleMMMenu0312205212_1_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_1');">
-                    Biblioteca
-                  </a>
-                  <a href="sala_tv_lectura.php" target="_blank" id="MMMenu0312205212_1_1_Item_3" class="MMMIVStyleMMMenu0312205212_1_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_1');">
-                    Sala&nbsp;TV&nbsp;Lectura
-                  </a>
-                  <a href="sala_taurina.php" target="_blank" id="MMMenu0312205212_1_1_Item_4" class="MMMIVStyleMMMenu0312205212_1_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_1');">
-                    Sala&nbsp;Taurina
-                  </a>
-                  <a href="salon_actos.php" target="_blank" id="MMMenu0312205212_1_1_Item_5" class="MMMIVStyleMMMenu0312205212_1_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_1');">
-                    Salon&nbsp;de&nbsp;Actos
-                  </a>
-                  <a href="bodeguita.php" target="_blank" id="MMMenu0312205212_1_1_Item_6" class="MMMIVStyleMMMenu0312205212_1_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_1');">
-                    Bodeg&uuml;ita-Musical
-                  </a>
-                </div>
-                <div id="MMMenu0312205212_1_2" onmouseout="MM_menuStartTimeout(1000);" onmouseover="MM_menuResetTimeout();">
-                  <a href="piscina.php" target="_blank" id="MMMenu0312205212_1_2_Item_0" class="MMMIFVStyleMMMenu0312205212_1_2" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_2');">
-                    Piscina
-                  </a>
-                  <a href="gimnasio.php" target="_blank" id="MMMenu0312205212_1_2_Item_1" class="MMMIVStyleMMMenu0312205212_1_2" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_2','1');">
-                    <span class="MMMenuItemSpanMMMenu0312205212_1_2">Gimnasio</span>
-                    <img src="img/arrows.gif" alt="" class="MMArrowStyleMMMenu0312205212_1_2" />
-                  </a>
-                </div>
-                <div id="MMMenu0312205212_1_2_1" onmouseout="MM_menuStartTimeout(1000);" onmouseover="MM_menuResetTimeout();">
-                  <a href="pista_squash.php" target="_blank" id="MMMenu0312205212_1_2_1_Item_0" class="MMMIFVStyleMMMenu0312205212_1_2_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_2_1');">
-                    Pista&nbsp;Squash
-                  </a>
-                  <a href="sauna.php" target="_blank" id="MMMenu0312205212_1_2_1_Item_1" class="MMMIVStyleMMMenu0312205212_1_2_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_2_1');">
-                    Sauna
-                  </a>
-                  <a href="fitness.php" target="_blank" id="MMMenu0312205212_1_2_1_Item_2" class="MMMIVStyleMMMenu0312205212_1_2_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_2_1');">
-                    Fitness
-                  </a>
-                  <a href="mantenimiento.php" target="_blank" id="MMMenu0312205212_1_2_1_Item_3" class="MMMIVStyleMMMenu0312205212_1_2_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_2_1');">
-                    Mantenimiento
-                  </a>
-                </div>
-              </div>
-              <div id="MMMenuContainer0312205212_2">
-                <div id="MMMenu0312205212_2" onmouseout="MM_menuStartTimeout(1000);" onmouseover="MM_menuResetTimeout();">
-                  <a href="reserva_socios.php" target="_blank" id="MMMenu0312205212_2_Item_0" class="MMMIFVStyleMMMenu0312205212_2" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_2');">
-                    Reserva&nbsp;socios
-                  </a>
-                  <a href="reserva_no_socios.php" target="_blank" id="MMMenu0312205212_2_Item_1" class="MMMIVStyleMMMenu0312205212_2" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_2');">
-                    Reserva&nbsp;NO&nbsp;socios
-                  </a>
-                </div>
-              </div>
-              <div id="MMMenuContainer0312205212_3">
-                <div id="MMMenu0312205212_3" onmouseout="MM_menuStartTimeout(1000);" onmouseover="MM_menuResetTimeout();">
-                  <a href="ingreso.php" target="_blank" id="MMMenu0312205212_3_Item_0" class="MMMIFVStyleMMMenu0312205212_3" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_3');">
-                    Ingreso
-                  </a>
-                  <a href="baja.php" target="_blank" id="MMMenu0312205212_3_Item_1" class="MMMIVStyleMMMenu0312205212_3" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_3');">
-                    Baja
-                  </a></div>
-              </div>
-            </div>
-          </div>
-        </td>
-      </tr>
+              
       <?php
       theFooter();
       ?>

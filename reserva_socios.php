@@ -376,16 +376,16 @@
                                               <div align="center">Para celebrar en ella
                                                 <input name="celebrar" type="text" id="celebrar" size="40" required />
                                                 el proximo d&iacute;a
-                                                <input name="diacelebrar" type="text" id="diacelebrar" value="01/01/2000" size="12" required />
+                                                <input name="diacelebracion" type="text" id="diacelebracion" size="12" required />
                                               </div>
                                             </th>
                                           </tr>
                                           <tr>
                                             <th height="30" colspan="2" valign="middle" class="Estilo47" scope="row">
                                               <div align="center">a las
-                                                <input name="horaempie" type="text" id="horaempie" value="00:00" size="12" required />
+                                                <input name="horacomienzo" type="text" id="horacomienzo" size="12" required />
                                                 horas, con una duraci&oacute;n total aproximada de
-                                                <input name="duraccion" type="text" id="duraccion" value="00:00" size="12" required />
+                                                <input name="duraccion" type="text" id="duraccion"  size="12" required />
                                                 horas. Dicha</div>
                                             </th>
                                           </tr>
@@ -410,11 +410,11 @@
                                           <tr>
                                             <th height="30" colspan="2" valign="middle" class="Estilo47" scope="row">
                                               <div align="center">En &Eacute;cija,a
-                                                <input name="dia22" type="text" id="dia22" size="4" required />
+                                                <input name="diaactual" type="text" id="diaactual" size="4" required />
                                                 de
-                                                <input name="mes22" type="text" id="mes22" size="12" required />
+                                                <input name="mesactual" type="text" id="mesactual" size="12" required />
                                                 del
-                                                <input name="ano2" type="text" id="ano2" size="4" required />
+                                                <input name="anoactual" type="text" id="anoactual" size="4" required />
                                               </div>
                                             </th>
                                           </tr>
