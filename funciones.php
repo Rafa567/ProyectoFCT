@@ -140,7 +140,7 @@ function theFooter()
                       <div align="left"></div>
                     </th>
                     <th width="73" height="10" class="Estilo2">
-                            <div align="left"><a href="junta_directiva.htnl" target="_top"></a> </div>
+                            <div align="left"><a href="juntadirectiva.php" target="_top">Junta directiva</a> </div>
                           </th>
 
                     <th width="82" height="10" class="Estilo2">
@@ -152,28 +152,29 @@ function theFooter()
                     </th>
                   </tr>
                   <tr>
-                    <th width="73" height="10" class="Estilo2">
-                            <div align="left"><a href="estatuto.php" target="_top"></a></div>
+                  <tr>
+                          <th width="14" class="Estilo2">&nbsp;</th>
+                          <th width="41" height="10" class="Estilo2">
+                            <div align="left"></div>
                           </th>
-                    <th width="14" class="Estilo2">&nbsp;</th>
-                    <th width="41" height="10" class="Estilo2">
-                      <div align="left"></div>
-                    </th>
-                    <th width="82" height="10" class="Estilo2">
-                      <div align="left"><a href="biblioteca.php" target="_top">Biblioteca</a></div>
-                    </th>
-                    <th width="42" height="10" class="Estilo2">&nbsp;</th>
-                    <th width="89" height="10" class="Estilo2">
-                      <div align="left"><a href="sauna.php" target="_top">Sauna</a></div>
-                    </th>
-                  </tr>
+                          <th width="73" height="10" class="Estilo2">
+                            <div align="left"><a href="estatutos.php" target="_top">Estatutos</a></div>
+                          </th>
+                          <th width="82" height="10" class="Estilo2">
+                            <div align="left"><a href="biblioteca.php" target="_top">Biblioteca</a></div>
+                          </th>
+                          <th width="42" height="10" class="Estilo2">&nbsp;</th>
+                          <th width="89" height="10" class="Estilo2">
+                            <div align="left"><a href="sauna.php" target="_top">Sauna</a></div>
+                          </th>
+                        </tr>
                   <tr>
                     <th width="14" class="Estilo2">&nbsp;</th>
                     <th width="41" height="10" class="Estilo2">
                       <div align="left"></div>
                     </th>
                     <th width="73" height="10" class="Estilo2">
-                            <div align="left"><a href="normas_club.php" target="_top"></a> </div>
+                            <div align="left"><a href="normasclub.php" target="_top">Normas del club</a> </div>
                           </th>
                     <th width="82" height="10" class="Estilo2">
                       <div align="left"><a href="sala_tv_lectura.php" target="_top" class="Estilo2">Sala tv

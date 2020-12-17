@@ -164,7 +164,20 @@
                   <a href="bienvenida.php" target="_top" id="MMMenu0312205212_0_Item_0" class="MMMIFVStyleMMMenu0312205212_0" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_0');">
                     Bienvenida </a>
                   <a href="historia.php" target="_top" id="MMMenu0312205212_0_Item_1" class="MMMIVStyleMMMenu0312205212_0" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_0');">
-                    Historia </a>
+                    Historia 
+                  </a>
+                  <a href="juntadirectiva.php" target="_blank" id="MMMenu0312205212_0_Item_2"
+                    class="MMMIVStyleMMMenu0312205212_0" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_0');">
+                    Junta&nbsp;Directiva
+                  </a>
+                  <a href="estatutos.php" target="_blank" id="MMMenu0312205212_0_Item_3"
+                    class="MMMIVStyleMMMenu0312205212_0" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_0');">
+                    Estatutos
+                  </a>
+                  <a href="normasclub.php" target="_blank" id="MMMenu0312205212_0_Item_4"
+                    class="MMMIVStyleMMMenu0312205212_0" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_0');">
+                    Normas&nbsp;del&nbsp;Club
+                  </a>
                 </div>
               </div>
               

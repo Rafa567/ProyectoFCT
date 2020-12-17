@@ -283,6 +283,18 @@
                   <a href="historia.php" target="_blank" id="MMMenu0312205212_0_Item_1" class="MMMIVStyleMMMenu0312205212_0" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_0');">
                     Historia
                   </a>
+                  <a href="juntadirectiva.php" target="_blank" id="MMMenu0312205212_0_Item_2"
+                    class="MMMIVStyleMMMenu0312205212_0" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_0');">
+                    Junta&nbsp;Directiva
+                  </a>
+                  <a href="estatutos.php" target="_blank" id="MMMenu0312205212_0_Item_3"
+                    class="MMMIVStyleMMMenu0312205212_0" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_0');">
+                    Estatutos
+                  </a>
+                  <a href="normasclub.php" target="_blank" id="MMMenu0312205212_0_Item_4"
+                    class="MMMIVStyleMMMenu0312205212_0" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_0');">
+                    Normas&nbsp;del&nbsp;Club
+                  </a>
 
                 </div>
               </div>
@@ -296,6 +308,7 @@
                     <span class="MMMenuItemSpanMMMenu0312205212_1">Area&nbsp;Deportiva</span>
                     <img src="img/arrows.gif" alt="" class="MMArrowStyleMMMenu0312205212_1" />
                   </a>
+                  
                 </div>
                 <div id="MMMenu0312205212_1_1" onmouseout="MM_menuStartTimeout(1000);" onmouseover="MM_menuResetTimeout();">
                   <a href="sala_infantil_juvenil.php" target="_blank" id="MMMenu0312205212_1_1_Item_0" class="MMMIFVStyleMMMenu0312205212_1_1" onmouseover="MM_menuOverMenuItem('MMMenu0312205212_1_1');">
